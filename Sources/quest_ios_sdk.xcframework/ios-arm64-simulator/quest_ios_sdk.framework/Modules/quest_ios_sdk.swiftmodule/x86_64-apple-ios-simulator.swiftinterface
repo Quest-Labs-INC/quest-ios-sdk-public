@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target x86_64-apple-ios18.2-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name quest_ios_sdk
+// swift-module-flags: -target x86_64-apple-ios18.2-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-experimental-feature OpaqueTypeErasure -enable-bare-slash-regex -module-name quest_ios_sdk
 import Combine
 import DeveloperToolsSupport
 import Foundation
@@ -19,18 +19,20 @@ import _SwiftConcurrencyShims
   }
   public typealias Body = @_opaqueReturnTypeOf("$s13quest_ios_sdk11WelcomeViewV4bodyQrvp", 0) __
 }
+@_Concurrency.MainActor @preconcurrency public struct QLPopUPModal : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(xp: Swift.String, onTap: @escaping () -> Swift.Void, onClose: (() -> Swift.Void)? = nil, popUpTitle: (() -> SwiftUICore.AnyView)? = nil, popUpDescription: (() -> SwiftUICore.AnyView)? = nil, popUpImage: (() -> SwiftUICore.AnyView)? = nil, popUpButton: (() -> SwiftUICore.AnyView)? = nil, closeButton: (() -> SwiftUICore.AnyView)? = nil)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s13quest_ios_sdk12QLPopUPModalV4bodyQrvp", 0) __
+}
+
 @_Concurrency.MainActor @preconcurrency public struct QLCoin : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public init(externalUser: Swift.String, coinViewPoint: Swift.String? = nil, streakComponentConfig: quest_ios_sdk.QLStreakComponentConfig)
+  @_Concurrency.MainActor @preconcurrency public init(externalUser: Swift.String, coinViewPoint: Swift.String? = nil, streakComponentConfig: quest_ios_sdk.QLStreakComponentConfig, onTap: @escaping () -> Swift.Void)
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
   public typealias Body = @_opaqueReturnTypeOf("$s13quest_ios_sdk6QLCoinV4bodyQrvp", 0) __
-}
-@_Concurrency.MainActor @preconcurrency public struct QLPopUP : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
-    get
-  }
-  public typealias Body = @_opaqueReturnTypeOf("$s13quest_ios_sdk7QLPopUPV4bodyQrvp", 0) __
 }
 
 @_Concurrency.MainActor @preconcurrency public struct QLCoinComponentView : SwiftUICore.View {
@@ -77,7 +79,7 @@ import _SwiftConcurrencyShims
   public typealias Body = @_opaqueReturnTypeOf("$s13quest_ios_sdk17QLProgressBarViewV4bodyQrvp", 0) __
 }
 @_Concurrency.MainActor @preconcurrency public struct QLStreakComponent : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public init(externalUser: Swift.String, streakMetric: Swift.String, streakViewTitle: Swift.String, streakViewDescriptionText: Swift.String, campaignId: Swift.String, counterId: Swift.String, streakComponentConfig: quest_ios_sdk.QLStreakComponentConfig, streakDayCounter: (() -> SwiftUICore.AnyView)? = nil, streakTitle: (() -> SwiftUICore.AnyView)? = nil, streakDescription: (() -> SwiftUICore.AnyView)? = nil, streakData: (() -> SwiftUICore.AnyView)? = nil, qlProgressBarView: (() -> SwiftUICore.AnyView)? = nil)
+  @_Concurrency.MainActor @preconcurrency public init(externalUser: Swift.String, streakMetric: Swift.String, streakViewTitle: Swift.String, streakViewDescriptionText: Swift.String, campaignId: Swift.String, counterId: Swift.String, streakComponentConfig: quest_ios_sdk.QLStreakComponentConfig, streakDayCounter: (() -> SwiftUICore.AnyView)? = nil, streakTitle: (() -> SwiftUICore.AnyView)? = nil, streakDescription: (() -> SwiftUICore.AnyView)? = nil, streakData: (() -> SwiftUICore.AnyView)? = nil, qlProgressBarView: (() -> SwiftUICore.AnyView)? = nil, closeButton: (() -> SwiftUICore.AnyView)? = nil)
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
@@ -133,8 +135,8 @@ public struct QLStreakComponentConfig {
   public typealias Body = @_opaqueReturnTypeOf("$s13quest_ios_sdk15QLWebviewWidgetV4bodyQrvp", 0) __
 }
 extension quest_ios_sdk.WelcomeView : Swift.Sendable {}
+extension quest_ios_sdk.QLPopUPModal : Swift.Sendable {}
 extension quest_ios_sdk.QLCoin : Swift.Sendable {}
-extension quest_ios_sdk.QLPopUP : Swift.Sendable {}
 extension quest_ios_sdk.QLCoinComponentView : Swift.Sendable {}
 extension quest_ios_sdk.StreakDayCounter : Swift.Sendable {}
 extension quest_ios_sdk.StreakHeader : Swift.Sendable {}
