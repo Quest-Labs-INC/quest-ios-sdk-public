@@ -22,15 +22,15 @@
 		</data>
 		<key>Modules/quest_ios_sdk.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		AOw15jtRt17Gdr2nm+VeLn/Qi0c=
+		LRKuL0wTkY7dBzvIaJhuX8ikrzg=
 		</data>
 		<key>Modules/quest_ios_sdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		arFk9YjRWhV3mFJ3jePBGQCzeGQ=
+		ClkAOfK7PQ2cS/0jPxMRy5TvJi8=
 		</data>
 		<key>Modules/quest_ios_sdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		LGwLhiBcuQYg5T4bpIOOPZJ4Xjg=
+		LFg608bPk0l0mLq1xSGuNISh2qA=
 		</data>
 		<key>Modules/quest_ios_sdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/quest_ios_sdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		LGwLhiBcuQYg5T4bpIOOPZJ4Xjg=
+		LFg608bPk0l0mLq1xSGuNISh2qA=
 		</data>
 		<key>Modules/quest_ios_sdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		1P1iJd210Yl2Ce8pLweF7YoF/MI=
+		sg9YPkKrpKdnY9XYtXlCW+CWBlo=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -72,21 +72,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kgxHW8bON/cwRju6wsxgnNVRr5ZfW9iGVh+doG+Q9WE=
+			AGUWOOsqVGdRJA/kgeEDjFo28zSzX00Vu3o7X8bLUHA=
 			</data>
 		</dict>
 		<key>Modules/quest_ios_sdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JzHIKIuTM9Je8ZBRRv+GLO6wW9zcOurLuX5D/dOIu1w=
+			+3P6rr1JTqttYT+BrdZfO1FdWHRpudGnTK/q2FIXWwY=
 			</data>
 		</dict>
 		<key>Modules/quest_ios_sdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eIliRgc9vegSQ9kxEb4bqbcHsbahciCt/TQUrkSmrz8=
+			AncJqzOQl9YH+ppDsf0FC5B32kGDNZMNCBpLmm45YMk=
 			</data>
 		</dict>
 		<key>Modules/quest_ios_sdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -100,14 +100,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eIliRgc9vegSQ9kxEb4bqbcHsbahciCt/TQUrkSmrz8=
+			AncJqzOQl9YH+ppDsf0FC5B32kGDNZMNCBpLmm45YMk=
 			</data>
 		</dict>
 		<key>Modules/quest_ios_sdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y00y669Ojc9bWBkwYypj1Eq6+/h33oo7hETOEMjEB9o=
+			Q3LeYnF+S0M9O+VAeNhay8wKg/Defmg2R018DprUco8=
 			</data>
 		</dict>
 	</dict>
