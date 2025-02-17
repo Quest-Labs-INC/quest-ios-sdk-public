@@ -163,969 +163,6 @@
       },
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "quest_ios_sdk",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "QLPopUPModal",
-        "printedName": "QLPopUPModal",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "xp",
-            "printedName": "xp",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13quest_ios_sdk12QLPopUPModalV2xpSSvp",
-            "mangledName": "$s13quest_ios_sdk12QLPopUPModalV2xpSSvp",
-            "moduleName": "quest_ios_sdk",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "HasStorage"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13quest_ios_sdk12QLPopUPModalV2xpSSvg",
-                "mangledName": "$s13quest_ios_sdk12QLPopUPModalV2xpSSvg",
-                "moduleName": "quest_ios_sdk",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "onTap",
-            "printedName": "onTap",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "() -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13quest_ios_sdk12QLPopUPModalV5onTapyycvp",
-            "mangledName": "$s13quest_ios_sdk12QLPopUPModalV5onTapyycvp",
-            "moduleName": "quest_ios_sdk",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "HasStorage"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "() -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13quest_ios_sdk12QLPopUPModalV5onTapyycvg",
-                "mangledName": "$s13quest_ios_sdk12QLPopUPModalV5onTapyycvg",
-                "moduleName": "quest_ios_sdk",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "onClose",
-            "printedName": "onClose",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(() -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "() -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13quest_ios_sdk12QLPopUPModalV7onCloseyycSgvp",
-            "mangledName": "$s13quest_ios_sdk12QLPopUPModalV7onCloseyycSgvp",
-            "moduleName": "quest_ios_sdk",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "HasStorage"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(() -> ())?",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "() -> ()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          }
-                        ]
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13quest_ios_sdk12QLPopUPModalV7onCloseyycSgvg",
-                "mangledName": "$s13quest_ios_sdk12QLPopUPModalV7onCloseyycSgvg",
-                "moduleName": "quest_ios_sdk",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "popUpTitle",
-            "printedName": "popUpTitle",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(() -> SwiftUI.AnyView)?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "() -> SwiftUI.AnyView",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "AnyView",
-                        "printedName": "SwiftUI.AnyView",
-                        "usr": "s:7SwiftUI7AnyViewV"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13quest_ios_sdk12QLPopUPModalV10popUpTitle7SwiftUI7AnyViewVycSgvp",
-            "mangledName": "$s13quest_ios_sdk12QLPopUPModalV10popUpTitle7SwiftUI7AnyViewVycSgvp",
-            "moduleName": "quest_ios_sdk",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "HasStorage",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(() -> SwiftUI.AnyView)?",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "() -> SwiftUI.AnyView",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "AnyView",
-                            "printedName": "SwiftUI.AnyView",
-                            "usr": "s:7SwiftUI7AnyViewV"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          }
-                        ]
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13quest_ios_sdk12QLPopUPModalV10popUpTitle7SwiftUI7AnyViewVycSgvg",
-                "mangledName": "$s13quest_ios_sdk12QLPopUPModalV10popUpTitle7SwiftUI7AnyViewVycSgvg",
-                "moduleName": "quest_ios_sdk",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "popUpDescription",
-            "printedName": "popUpDescription",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(() -> SwiftUI.AnyView)?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "() -> SwiftUI.AnyView",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "AnyView",
-                        "printedName": "SwiftUI.AnyView",
-                        "usr": "s:7SwiftUI7AnyViewV"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13quest_ios_sdk12QLPopUPModalV16popUpDescription7SwiftUI7AnyViewVycSgvp",
-            "mangledName": "$s13quest_ios_sdk12QLPopUPModalV16popUpDescription7SwiftUI7AnyViewVycSgvp",
-            "moduleName": "quest_ios_sdk",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "HasStorage"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(() -> SwiftUI.AnyView)?",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "() -> SwiftUI.AnyView",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "AnyView",
-                            "printedName": "SwiftUI.AnyView",
-                            "usr": "s:7SwiftUI7AnyViewV"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          }
-                        ]
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13quest_ios_sdk12QLPopUPModalV16popUpDescription7SwiftUI7AnyViewVycSgvg",
-                "mangledName": "$s13quest_ios_sdk12QLPopUPModalV16popUpDescription7SwiftUI7AnyViewVycSgvg",
-                "moduleName": "quest_ios_sdk",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "popUpImage",
-            "printedName": "popUpImage",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(() -> SwiftUI.AnyView)?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "() -> SwiftUI.AnyView",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "AnyView",
-                        "printedName": "SwiftUI.AnyView",
-                        "usr": "s:7SwiftUI7AnyViewV"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13quest_ios_sdk12QLPopUPModalV10popUpImage7SwiftUI7AnyViewVycSgvp",
-            "mangledName": "$s13quest_ios_sdk12QLPopUPModalV10popUpImage7SwiftUI7AnyViewVycSgvp",
-            "moduleName": "quest_ios_sdk",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "HasStorage"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(() -> SwiftUI.AnyView)?",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "() -> SwiftUI.AnyView",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "AnyView",
-                            "printedName": "SwiftUI.AnyView",
-                            "usr": "s:7SwiftUI7AnyViewV"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          }
-                        ]
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13quest_ios_sdk12QLPopUPModalV10popUpImage7SwiftUI7AnyViewVycSgvg",
-                "mangledName": "$s13quest_ios_sdk12QLPopUPModalV10popUpImage7SwiftUI7AnyViewVycSgvg",
-                "moduleName": "quest_ios_sdk",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "popUpButton",
-            "printedName": "popUpButton",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(() -> SwiftUI.AnyView)?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "() -> SwiftUI.AnyView",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "AnyView",
-                        "printedName": "SwiftUI.AnyView",
-                        "usr": "s:7SwiftUI7AnyViewV"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13quest_ios_sdk12QLPopUPModalV11popUpButton7SwiftUI7AnyViewVycSgvp",
-            "mangledName": "$s13quest_ios_sdk12QLPopUPModalV11popUpButton7SwiftUI7AnyViewVycSgvp",
-            "moduleName": "quest_ios_sdk",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "HasStorage"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(() -> SwiftUI.AnyView)?",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "() -> SwiftUI.AnyView",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "AnyView",
-                            "printedName": "SwiftUI.AnyView",
-                            "usr": "s:7SwiftUI7AnyViewV"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          }
-                        ]
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13quest_ios_sdk12QLPopUPModalV11popUpButton7SwiftUI7AnyViewVycSgvg",
-                "mangledName": "$s13quest_ios_sdk12QLPopUPModalV11popUpButton7SwiftUI7AnyViewVycSgvg",
-                "moduleName": "quest_ios_sdk",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "closeButton",
-            "printedName": "closeButton",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(() -> SwiftUI.AnyView)?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "() -> SwiftUI.AnyView",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "AnyView",
-                        "printedName": "SwiftUI.AnyView",
-                        "usr": "s:7SwiftUI7AnyViewV"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13quest_ios_sdk12QLPopUPModalV11closeButton7SwiftUI7AnyViewVycSgvp",
-            "mangledName": "$s13quest_ios_sdk12QLPopUPModalV11closeButton7SwiftUI7AnyViewVycSgvp",
-            "moduleName": "quest_ios_sdk",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "HasStorage"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(() -> SwiftUI.AnyView)?",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "() -> SwiftUI.AnyView",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "AnyView",
-                            "printedName": "SwiftUI.AnyView",
-                            "usr": "s:7SwiftUI7AnyViewV"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          }
-                        ]
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13quest_ios_sdk12QLPopUPModalV11closeButton7SwiftUI7AnyViewVycSgvg",
-                "mangledName": "$s13quest_ios_sdk12QLPopUPModalV11closeButton7SwiftUI7AnyViewVycSgvg",
-                "moduleName": "quest_ios_sdk",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(xp:onTap:onClose:popUpTitle:popUpDescription:popUpImage:popUpButton:closeButton:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "QLPopUPModal",
-                "printedName": "quest_ios_sdk.QLPopUPModal",
-                "usr": "s:13quest_ios_sdk12QLPopUPModalV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "() -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(() -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "() -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ]
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(() -> SwiftUI.AnyView)?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "() -> SwiftUI.AnyView",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "AnyView",
-                        "printedName": "SwiftUI.AnyView",
-                        "usr": "s:7SwiftUI7AnyViewV"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ]
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(() -> SwiftUI.AnyView)?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "() -> SwiftUI.AnyView",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "AnyView",
-                        "printedName": "SwiftUI.AnyView",
-                        "usr": "s:7SwiftUI7AnyViewV"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ]
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(() -> SwiftUI.AnyView)?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "() -> SwiftUI.AnyView",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "AnyView",
-                        "printedName": "SwiftUI.AnyView",
-                        "usr": "s:7SwiftUI7AnyViewV"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ]
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(() -> SwiftUI.AnyView)?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "() -> SwiftUI.AnyView",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "AnyView",
-                        "printedName": "SwiftUI.AnyView",
-                        "usr": "s:7SwiftUI7AnyViewV"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ]
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(() -> SwiftUI.AnyView)?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "() -> SwiftUI.AnyView",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "AnyView",
-                        "printedName": "SwiftUI.AnyView",
-                        "usr": "s:7SwiftUI7AnyViewV"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ]
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:13quest_ios_sdk12QLPopUPModalV2xp5onTap0G5Close10popUpTitle0jK11Description0jK5Image0jK6Button05closeO0ACSS_yycyycSg7SwiftUI7AnyViewVycSgA4Ptcfc",
-            "mangledName": "$s13quest_ios_sdk12QLPopUPModalV2xp5onTap0G5Close10popUpTitle0jK11Description0jK5Image0jK6Button05closeO0ACSS_yycyycSg7SwiftUI7AnyViewVycSgA4Ptcfc",
-            "moduleName": "quest_ios_sdk",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "body",
-            "printedName": "body",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OpaqueTypeArchetype",
-                "printedName": "some SwiftUI.View",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13quest_ios_sdk12QLPopUPModalV4bodyQrvp",
-            "mangledName": "$s13quest_ios_sdk12QLPopUPModalV4bodyQrvp",
-            "moduleName": "quest_ios_sdk",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13quest_ios_sdk12QLPopUPModalV4bodyQrvg",
-                "mangledName": "$s13quest_ios_sdk12QLPopUPModalV4bodyQrvg",
-                "moduleName": "quest_ios_sdk",
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:13quest_ios_sdk12QLPopUPModalV",
-        "mangledName": "$s13quest_ios_sdk12QLPopUPModalV",
-        "moduleName": "quest_ios_sdk",
-        "declAttributes": [
-          "Preconcurrency",
-          "Custom",
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "View",
-            "printedName": "View",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Body",
-                "printedName": "Body",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI4ViewP",
-            "mangledName": "$s7SwiftUI4ViewP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -4303,6 +3340,969 @@
                     "name": "Never",
                     "printedName": "Swift.Never",
                     "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "quest_ios_sdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "QLPopUPModal",
+        "printedName": "QLPopUPModal",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "xp",
+            "printedName": "xp",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13quest_ios_sdk12QLPopUPModalV2xpSSvp",
+            "mangledName": "$s13quest_ios_sdk12QLPopUPModalV2xpSSvp",
+            "moduleName": "quest_ios_sdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13quest_ios_sdk12QLPopUPModalV2xpSSvg",
+                "mangledName": "$s13quest_ios_sdk12QLPopUPModalV2xpSSvg",
+                "moduleName": "quest_ios_sdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onTap",
+            "printedName": "onTap",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13quest_ios_sdk12QLPopUPModalV5onTapyycvp",
+            "mangledName": "$s13quest_ios_sdk12QLPopUPModalV5onTapyycvp",
+            "moduleName": "quest_ios_sdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13quest_ios_sdk12QLPopUPModalV5onTapyycvg",
+                "mangledName": "$s13quest_ios_sdk12QLPopUPModalV5onTapyycvg",
+                "moduleName": "quest_ios_sdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onClose",
+            "printedName": "onClose",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13quest_ios_sdk12QLPopUPModalV7onCloseyycSgvp",
+            "mangledName": "$s13quest_ios_sdk12QLPopUPModalV7onCloseyycSgvp",
+            "moduleName": "quest_ios_sdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13quest_ios_sdk12QLPopUPModalV7onCloseyycSgvg",
+                "mangledName": "$s13quest_ios_sdk12QLPopUPModalV7onCloseyycSgvg",
+                "moduleName": "quest_ios_sdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "popUpTitle",
+            "printedName": "popUpTitle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> SwiftUI.AnyView)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> SwiftUI.AnyView",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyView",
+                        "printedName": "SwiftUI.AnyView",
+                        "usr": "s:7SwiftUI7AnyViewV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13quest_ios_sdk12QLPopUPModalV10popUpTitle7SwiftUI7AnyViewVycSgvp",
+            "mangledName": "$s13quest_ios_sdk12QLPopUPModalV10popUpTitle7SwiftUI7AnyViewVycSgvp",
+            "moduleName": "quest_ios_sdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> SwiftUI.AnyView)?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> SwiftUI.AnyView",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AnyView",
+                            "printedName": "SwiftUI.AnyView",
+                            "usr": "s:7SwiftUI7AnyViewV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13quest_ios_sdk12QLPopUPModalV10popUpTitle7SwiftUI7AnyViewVycSgvg",
+                "mangledName": "$s13quest_ios_sdk12QLPopUPModalV10popUpTitle7SwiftUI7AnyViewVycSgvg",
+                "moduleName": "quest_ios_sdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "popUpDescription",
+            "printedName": "popUpDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> SwiftUI.AnyView)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> SwiftUI.AnyView",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyView",
+                        "printedName": "SwiftUI.AnyView",
+                        "usr": "s:7SwiftUI7AnyViewV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13quest_ios_sdk12QLPopUPModalV16popUpDescription7SwiftUI7AnyViewVycSgvp",
+            "mangledName": "$s13quest_ios_sdk12QLPopUPModalV16popUpDescription7SwiftUI7AnyViewVycSgvp",
+            "moduleName": "quest_ios_sdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> SwiftUI.AnyView)?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> SwiftUI.AnyView",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AnyView",
+                            "printedName": "SwiftUI.AnyView",
+                            "usr": "s:7SwiftUI7AnyViewV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13quest_ios_sdk12QLPopUPModalV16popUpDescription7SwiftUI7AnyViewVycSgvg",
+                "mangledName": "$s13quest_ios_sdk12QLPopUPModalV16popUpDescription7SwiftUI7AnyViewVycSgvg",
+                "moduleName": "quest_ios_sdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "popUpImage",
+            "printedName": "popUpImage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> SwiftUI.AnyView)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> SwiftUI.AnyView",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyView",
+                        "printedName": "SwiftUI.AnyView",
+                        "usr": "s:7SwiftUI7AnyViewV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13quest_ios_sdk12QLPopUPModalV10popUpImage7SwiftUI7AnyViewVycSgvp",
+            "mangledName": "$s13quest_ios_sdk12QLPopUPModalV10popUpImage7SwiftUI7AnyViewVycSgvp",
+            "moduleName": "quest_ios_sdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> SwiftUI.AnyView)?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> SwiftUI.AnyView",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AnyView",
+                            "printedName": "SwiftUI.AnyView",
+                            "usr": "s:7SwiftUI7AnyViewV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13quest_ios_sdk12QLPopUPModalV10popUpImage7SwiftUI7AnyViewVycSgvg",
+                "mangledName": "$s13quest_ios_sdk12QLPopUPModalV10popUpImage7SwiftUI7AnyViewVycSgvg",
+                "moduleName": "quest_ios_sdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "popUpButton",
+            "printedName": "popUpButton",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> SwiftUI.AnyView)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> SwiftUI.AnyView",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyView",
+                        "printedName": "SwiftUI.AnyView",
+                        "usr": "s:7SwiftUI7AnyViewV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13quest_ios_sdk12QLPopUPModalV11popUpButton7SwiftUI7AnyViewVycSgvp",
+            "mangledName": "$s13quest_ios_sdk12QLPopUPModalV11popUpButton7SwiftUI7AnyViewVycSgvp",
+            "moduleName": "quest_ios_sdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> SwiftUI.AnyView)?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> SwiftUI.AnyView",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AnyView",
+                            "printedName": "SwiftUI.AnyView",
+                            "usr": "s:7SwiftUI7AnyViewV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13quest_ios_sdk12QLPopUPModalV11popUpButton7SwiftUI7AnyViewVycSgvg",
+                "mangledName": "$s13quest_ios_sdk12QLPopUPModalV11popUpButton7SwiftUI7AnyViewVycSgvg",
+                "moduleName": "quest_ios_sdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "closeButton",
+            "printedName": "closeButton",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> SwiftUI.AnyView)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> SwiftUI.AnyView",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyView",
+                        "printedName": "SwiftUI.AnyView",
+                        "usr": "s:7SwiftUI7AnyViewV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13quest_ios_sdk12QLPopUPModalV11closeButton7SwiftUI7AnyViewVycSgvp",
+            "mangledName": "$s13quest_ios_sdk12QLPopUPModalV11closeButton7SwiftUI7AnyViewVycSgvp",
+            "moduleName": "quest_ios_sdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> SwiftUI.AnyView)?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> SwiftUI.AnyView",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AnyView",
+                            "printedName": "SwiftUI.AnyView",
+                            "usr": "s:7SwiftUI7AnyViewV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13quest_ios_sdk12QLPopUPModalV11closeButton7SwiftUI7AnyViewVycSgvg",
+                "mangledName": "$s13quest_ios_sdk12QLPopUPModalV11closeButton7SwiftUI7AnyViewVycSgvg",
+                "moduleName": "quest_ios_sdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(xp:onTap:onClose:popUpTitle:popUpDescription:popUpImage:popUpButton:closeButton:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "QLPopUPModal",
+                "printedName": "quest_ios_sdk.QLPopUPModal",
+                "usr": "s:13quest_ios_sdk12QLPopUPModalV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> SwiftUI.AnyView)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> SwiftUI.AnyView",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyView",
+                        "printedName": "SwiftUI.AnyView",
+                        "usr": "s:7SwiftUI7AnyViewV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> SwiftUI.AnyView)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> SwiftUI.AnyView",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyView",
+                        "printedName": "SwiftUI.AnyView",
+                        "usr": "s:7SwiftUI7AnyViewV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> SwiftUI.AnyView)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> SwiftUI.AnyView",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyView",
+                        "printedName": "SwiftUI.AnyView",
+                        "usr": "s:7SwiftUI7AnyViewV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> SwiftUI.AnyView)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> SwiftUI.AnyView",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyView",
+                        "printedName": "SwiftUI.AnyView",
+                        "usr": "s:7SwiftUI7AnyViewV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> SwiftUI.AnyView)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> SwiftUI.AnyView",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyView",
+                        "printedName": "SwiftUI.AnyView",
+                        "usr": "s:7SwiftUI7AnyViewV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13quest_ios_sdk12QLPopUPModalV2xp5onTap0G5Close10popUpTitle0jK11Description0jK5Image0jK6Button05closeO0ACSS_yycyycSg7SwiftUI7AnyViewVycSgA4Ptcfc",
+            "mangledName": "$s13quest_ios_sdk12QLPopUPModalV2xp5onTap0G5Close10popUpTitle0jK11Description0jK5Image0jK6Button05closeO0ACSS_yycyycSg7SwiftUI7AnyViewVycSgA4Ptcfc",
+            "moduleName": "quest_ios_sdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13quest_ios_sdk12QLPopUPModalV4bodyQrvp",
+            "mangledName": "$s13quest_ios_sdk12QLPopUPModalV4bodyQrvp",
+            "moduleName": "quest_ios_sdk",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13quest_ios_sdk12QLPopUPModalV4bodyQrvg",
+                "mangledName": "$s13quest_ios_sdk12QLPopUPModalV4bodyQrvg",
+                "moduleName": "quest_ios_sdk",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13quest_ios_sdk12QLPopUPModalV",
+        "mangledName": "$s13quest_ios_sdk12QLPopUPModalV",
+        "moduleName": "quest_ios_sdk",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
                   }
                 ]
               }
@@ -31784,6 +31784,34 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/coin_component\/controller\/QL_coin_controller.swift",
+      "kind": "BooleanLiteral",
+      "offset": 360,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/coin_component\/controller\/QL_coin_controller.swift",
+      "kind": "StringLiteral",
+      "offset": 450,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/coin_component\/view\/QL_coin.swift",
+      "kind": "StringLiteral",
+      "offset": 2455,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/coin_component\/view\/QL_coin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4183,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/coin_component\/view\/QLPopUpCoinComponent.swift",
       "kind": "FloatLiteral",
       "offset": 3935,
@@ -31817,34 +31845,6 @@
       "offset": 4634,
       "length": 2,
       "value": "12"
-    },
-    {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/coin_component\/controller\/QL_coin_controller.swift",
-      "kind": "BooleanLiteral",
-      "offset": 360,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/coin_component\/controller\/QL_coin_controller.swift",
-      "kind": "StringLiteral",
-      "offset": 450,
-      "length": 3,
-      "value": "\"0\""
-    },
-    {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/coin_component\/view\/QL_coin.swift",
-      "kind": "StringLiteral",
-      "offset": 2455,
-      "length": 3,
-      "value": "\"0\""
-    },
-    {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/coin_component\/view\/QL_coin.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4183,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/core\/common_widgets\/QL_progress_bar.swift",
