@@ -2431,8 +2431,7 @@
         "declAttributes": [
           "Preconcurrency",
           "Custom",
-          "AccessControl",
-          "RawDocComment"
+          "AccessControl"
         ],
         "conformances": [
           {
@@ -31800,14 +31799,14 @@
     {
       "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/coin_component\/view\/QL_coin.swift",
       "kind": "StringLiteral",
-      "offset": 2455,
+      "offset": 171,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/coin_component\/view\/QL_coin.swift",
       "kind": "BooleanLiteral",
-      "offset": 4183,
+      "offset": 1997,
       "length": 5,
       "value": "false"
     },
@@ -31970,7 +31969,7 @@
       "kind": "StringLiteral",
       "offset": 4058,
       "length": 6,
-      "value": "\"Jvye\""
+      "value": "\"Jyve\""
     },
     {
       "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QLModularComponent\/QLStreakModiular.swift",
