@@ -127,13 +127,14 @@ public struct QLStreakComponentConfig {
 }
 
 @_Concurrency.MainActor @preconcurrency public struct QLWebviewWidget : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public init(url: Swift.String)
+  @_Concurrency.MainActor @preconcurrency public init(url: Swift.String, onCloseIframe: (() -> Swift.Void)? = nil)
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
-  @_Concurrency.MainActor @preconcurrency public static func make(with url: Swift.String) -> quest_ios_sdk.QLWebviewWidget
+  @_Concurrency.MainActor @preconcurrency public static func make(with url: Swift.String, onCloseIframe: (() -> Swift.Void)? = nil) -> quest_ios_sdk.QLWebviewWidget
   public typealias Body = @_opaqueReturnTypeOf("$s13quest_ios_sdk15QLWebviewWidgetV4bodyQrvp", 0) __
 }
+
 extension quest_ios_sdk.WelcomeView : Swift.Sendable {}
 extension quest_ios_sdk.QLCoin : Swift.Sendable {}
 extension quest_ios_sdk.QLCoinComponentView : Swift.Sendable {}

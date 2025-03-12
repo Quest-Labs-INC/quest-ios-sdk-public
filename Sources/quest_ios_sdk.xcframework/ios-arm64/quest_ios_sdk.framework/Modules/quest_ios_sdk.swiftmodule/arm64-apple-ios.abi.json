@@ -10927,27 +10927,22 @@
           {
             "kind": "Function",
             "name": "calculateTimeDifference",
-            "printedName": "calculateTimeDifference(lastIncrementedAt:)",
+            "printedName": "calculateTimeDifference()",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "s:13quest_ios_sdk17QLStreakViewModelC23calculateTimeDifference17lastIncrementedAtySS_tF",
-            "mangledName": "$s13quest_ios_sdk17QLStreakViewModelC23calculateTimeDifference17lastIncrementedAtySS_tF",
+            "usr": "s:13quest_ios_sdk17QLStreakViewModelC23calculateTimeDifferenceyyF",
+            "mangledName": "$s13quest_ios_sdk17QLStreakViewModelC23calculateTimeDifferenceyyF",
             "moduleName": "quest_ios_sdk",
             "isOpen": true,
             "declAttributes": [
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           }
@@ -29526,6 +29521,160 @@
             "hasStorage": true
           },
           {
+            "kind": "Var",
+            "name": "onCloseIframe",
+            "printedName": "onCloseIframe",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13quest_ios_sdk18QLWebViewContainerV13onCloseIframeyycSgvp",
+            "mangledName": "$s13quest_ios_sdk18QLWebViewContainerV13onCloseIframeyycSgvp",
+            "moduleName": "quest_ios_sdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13quest_ios_sdk18QLWebViewContainerV13onCloseIframeyycSgvg",
+                "mangledName": "$s13quest_ios_sdk18QLWebViewContainerV13onCloseIframeyycSgvg",
+                "moduleName": "quest_ios_sdk",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13quest_ios_sdk18QLWebViewContainerV13onCloseIframeyycSgvs",
+                "mangledName": "$s13quest_ios_sdk18QLWebViewContainerV13onCloseIframeyycSgvs",
+                "moduleName": "quest_ios_sdk",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13quest_ios_sdk18QLWebViewContainerV13onCloseIframeyycSgvM",
+                "mangledName": "$s13quest_ios_sdk18QLWebViewContainerV13onCloseIframeyycSgvM",
+                "moduleName": "quest_ios_sdk",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "makeCoordinator",
             "printedName": "makeCoordinator()",
@@ -29543,7 +29692,8 @@
             "moduleName": "quest_ios_sdk",
             "declAttributes": [
               "Preconcurrency",
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -29627,7 +29777,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(webViewModel:)",
+            "printedName": "init(webViewModel:onCloseIframe:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -29640,11 +29790,37 @@
                 "name": "QLWebViewModel",
                 "printedName": "quest_ios_sdk.QLWebViewModel",
                 "usr": "s:13quest_ios_sdk14QLWebViewModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:13quest_ios_sdk18QLWebViewContainerV03webE5ModelAcA0deH0C_tcfc",
-            "mangledName": "$s13quest_ios_sdk18QLWebViewContainerV03webE5ModelAcA0deH0C_tcfc",
+            "usr": "s:13quest_ios_sdk18QLWebViewContainerV03webE5Model13onCloseIframeAcA0deH0C_yycSgtcfc",
+            "mangledName": "$s13quest_ios_sdk18QLWebViewContainerV03webE5Model13onCloseIframeAcA0deH0C_yycSgtcfc",
             "moduleName": "quest_ios_sdk",
             "implicit": true,
             "declAttributes": [
@@ -29721,9 +29897,55 @@
                 "hasStorage": true
               },
               {
+                "kind": "Var",
+                "name": "onCloseIframe",
+                "printedName": "onCloseIframe",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:13quest_ios_sdk18QLWebViewContainerV11CoordinatorC13onCloseIframe33_29CD37BFAEA32875FCE5676EDECA2CEELLyycSgvp",
+                "mangledName": "$s13quest_ios_sdk18QLWebViewContainerV11CoordinatorC13onCloseIframe33_29CD37BFAEA32875FCE5676EDECA2CEELLyycSgvp",
+                "moduleName": "quest_ios_sdk",
+                "isInternal": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "Preconcurrency",
+                  "Custom",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "fixedbinaryorder": 2,
+                "hasStorage": true
+              },
+              {
                 "kind": "Constructor",
                 "name": "init",
-                "printedName": "init(_:_:)",
+                "printedName": "init(_:_:onCloseIframe:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -29742,15 +29964,41 @@
                     "name": "QLWebViewModel",
                     "printedName": "quest_ios_sdk.QLWebViewModel",
                     "usr": "s:13quest_ios_sdk14QLWebViewModelC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Constructor",
-                "usr": "s:13quest_ios_sdk18QLWebViewContainerV11CoordinatorCyAeC_AA0dE5ModelCtcfc",
-                "mangledName": "$s13quest_ios_sdk18QLWebViewContainerV11CoordinatorCyAeC_AA0dE5ModelCtcfc",
+                "usr": "s:13quest_ios_sdk18QLWebViewContainerV11CoordinatorC__13onCloseIframeAeC_AA0dE5ModelCyycSgtcfc",
+                "mangledName": "$s13quest_ios_sdk18QLWebViewContainerV11CoordinatorC__13onCloseIframeAeC_AA0dE5ModelCyycSgtcfc",
                 "moduleName": "quest_ios_sdk",
                 "declAttributes": [
                   "Preconcurrency",
-                  "Custom"
+                  "Custom",
+                  "RawDocComment"
                 ],
                 "init_kind": "Designated"
               },
@@ -29794,7 +30042,8 @@
                 "declAttributes": [
                   "ObjC",
                   "Preconcurrency",
-                  "Custom"
+                  "Custom",
+                  "RawDocComment"
                 ],
                 "funcSelfKind": "NonMutating"
               },
@@ -29889,6 +30138,43 @@
                   "ObjC",
                   "Preconcurrency",
                   "Custom"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "userContentController",
+                "printedName": "userContentController(_:didReceive:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKUserContentController",
+                    "printedName": "WebKit.WKUserContentController",
+                    "usr": "c:objc(cs)WKUserContentController"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKScriptMessage",
+                    "printedName": "WebKit.WKScriptMessage",
+                    "usr": "c:objc(cs)WKScriptMessage"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:13quest_ios_sdk18QLWebViewContainerV11CoordinatorC21userContentController_10didReceiveySo06WKUseriJ0C_So15WKScriptMessageCtF",
+                "mangledName": "$s13quest_ios_sdk18QLWebViewContainerV11CoordinatorC21userContentController_10didReceiveySo06WKUseriJ0C_So15WKScriptMessageCtF",
+                "moduleName": "quest_ios_sdk",
+                "isOpen": true,
+                "objc_name": "userContentController:didReceiveScriptMessage:",
+                "declAttributes": [
+                  "ObjC",
+                  "Preconcurrency",
+                  "Custom",
+                  "RawDocComment"
                 ],
                 "funcSelfKind": "NonMutating"
               },
@@ -30271,9 +30557,153 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "onCloseIframe",
+            "printedName": "onCloseIframe",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13quest_ios_sdk15QLWebviewWidgetV13onCloseIframeyycSgvp",
+            "mangledName": "$s13quest_ios_sdk15QLWebviewWidgetV13onCloseIframeyycSgvp",
+            "moduleName": "quest_ios_sdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13quest_ios_sdk15QLWebviewWidgetV13onCloseIframeyycSgvg",
+                "mangledName": "$s13quest_ios_sdk15QLWebviewWidgetV13onCloseIframeyycSgvg",
+                "moduleName": "quest_ios_sdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13quest_ios_sdk15QLWebviewWidgetV13onCloseIframeyycSgvs",
+                "mangledName": "$s13quest_ios_sdk15QLWebviewWidgetV13onCloseIframeyycSgvs",
+                "moduleName": "quest_ios_sdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13quest_ios_sdk15QLWebviewWidgetV13onCloseIframeyycSgvM",
+                "mangledName": "$s13quest_ios_sdk15QLWebviewWidgetV13onCloseIframeyycSgvM",
+                "moduleName": "quest_ios_sdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(url:)",
+            "printedName": "init(url:onCloseIframe:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -30286,11 +30716,37 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:13quest_ios_sdk15QLWebviewWidgetV3urlACSS_tcfc",
-            "mangledName": "$s13quest_ios_sdk15QLWebviewWidgetV3urlACSS_tcfc",
+            "usr": "s:13quest_ios_sdk15QLWebviewWidgetV3url13onCloseIframeACSS_yycSgtcfc",
+            "mangledName": "$s13quest_ios_sdk15QLWebviewWidgetV3url13onCloseIframeACSS_yycSgtcfc",
             "moduleName": "quest_ios_sdk",
             "declAttributes": [
               "Preconcurrency",
@@ -30359,7 +30815,7 @@
           {
             "kind": "Function",
             "name": "make",
-            "printedName": "make(with:)",
+            "printedName": "make(with:onCloseIframe:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -30372,11 +30828,37 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:13quest_ios_sdk15QLWebviewWidgetV4make4withACSS_tFZ",
-            "mangledName": "$s13quest_ios_sdk15QLWebviewWidgetV4make4withACSS_tFZ",
+            "usr": "s:13quest_ios_sdk15QLWebviewWidgetV4make4with13onCloseIframeACSS_yycSgtFZ",
+            "mangledName": "$s13quest_ios_sdk15QLWebviewWidgetV4make4with13onCloseIframeACSS_yycSgtFZ",
             "moduleName": "quest_ios_sdk",
             "static": true,
             "declAttributes": [
@@ -31783,504 +32265,546 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/coin_component\/controller\/QL_coin_controller.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/coin_component\/controller\/QL_coin_controller.swift",
       "kind": "BooleanLiteral",
       "offset": 360,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/coin_component\/controller\/QL_coin_controller.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/coin_component\/controller\/QL_coin_controller.swift",
       "kind": "StringLiteral",
       "offset": 450,
       "length": 3,
       "value": "\"0\""
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/coin_component\/view\/QL_coin.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/coin_component\/view\/QL_coin.swift",
       "kind": "StringLiteral",
       "offset": 171,
       "length": 3,
       "value": "\"0\""
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/coin_component\/view\/QL_coin.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/coin_component\/view\/QL_coin.swift",
       "kind": "BooleanLiteral",
       "offset": 1997,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/coin_component\/view\/QLPopUpCoinComponent.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/coin_component\/view\/QLPopUpCoinComponent.swift",
       "kind": "FloatLiteral",
       "offset": 3935,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/coin_component\/view\/QLPopUpCoinComponent.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/coin_component\/view\/QLPopUpCoinComponent.swift",
       "kind": "StringLiteral",
-      "offset": 4049,
+      "offset": 4057,
       "length": 4,
       "value": "\"50\""
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/coin_component\/view\/QLPopUpCoinComponent.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/coin_component\/view\/QLPopUpCoinComponent.swift",
       "kind": "StringLiteral",
-      "offset": 4490,
+      "offset": 4463,
+      "length": 7,
+      "value": "\"Close\""
+    },
+    {
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/coin_component\/view\/QLPopUpCoinComponent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4602,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/coin_component\/view\/QLPopUpCoinComponent.swift",
+      "kind": "StringLiteral",
+      "offset": 4753,
+      "length": 9,
+      "value": "\"#2D6B68\""
+    },
+    {
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/coin_component\/view\/QLPopUpCoinComponent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4827,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/coin_component\/view\/QLPopUpCoinComponent.swift",
+      "kind": "StringLiteral",
+      "offset": 5244,
       "length": 7,
       "value": "\"xmark\""
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/coin_component\/view\/QLPopUpCoinComponent.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/coin_component\/view\/QLPopUpCoinComponent.swift",
       "kind": "IntegerLiteral",
-      "offset": 4622,
+      "offset": 5376,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/coin_component\/view\/QLPopUpCoinComponent.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/coin_component\/view\/QLPopUpCoinComponent.swift",
       "kind": "IntegerLiteral",
-      "offset": 4634,
+      "offset": 5388,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/core\/common_widgets\/QL_progress_bar.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/core\/common_widgets\/QL_progress_bar.swift",
       "kind": "IntegerLiteral",
       "offset": 1484,
       "length": 4,
       "value": "1430"
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/core\/common_widgets\/QL_progress_bar.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/core\/common_widgets\/QL_progress_bar.swift",
       "kind": "IntegerLiteral",
       "offset": 1505,
       "length": 4,
       "value": "1440"
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/core\/common_widgets\/QL_progress_bar.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/core\/common_widgets\/QL_progress_bar.swift",
       "kind": "StringLiteral",
       "offset": 1543,
       "length": 9,
       "value": "\"#083b42\""
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/core\/common_widgets\/QL_progress_bar.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/core\/common_widgets\/QL_progress_bar.swift",
       "kind": "StringLiteral",
       "offset": 1606,
       "length": 25,
       "value": "\"Time Remaining: 48 mins\""
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/core\/common_widgets\/QL_progress_bar.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/core\/common_widgets\/QL_progress_bar.swift",
       "kind": "StringLiteral",
       "offset": 1664,
       "length": 9,
       "value": "\"#e6ebec\""
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/core\/common_widgets\/QL_progress_bar.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/core\/common_widgets\/QL_progress_bar.swift",
       "kind": "IntegerLiteral",
       "offset": 1698,
       "length": 1,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/core\/common_widgets\/QL_progress_bar.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/core\/common_widgets\/QL_progress_bar.swift",
       "kind": "IntegerLiteral",
       "offset": 1724,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/core\/common_widgets\/QL_remote_image_view.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/core\/common_widgets\/QL_remote_image_view.swift",
       "kind": "IntegerLiteral",
       "offset": 909,
       "length": 2,
       "value": "40"
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/core\/common_widgets\/QL_remote_image_view.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/core\/common_widgets\/QL_remote_image_view.swift",
       "kind": "IntegerLiteral",
       "offset": 931,
       "length": 2,
       "value": "40"
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/core\/common_widgets\/QL_remote_image_view.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/core\/common_widgets\/QL_remote_image_view.swift",
       "kind": "StringLiteral",
       "offset": 2010,
       "length": 59,
       "value": "\"https:\/\/developer.apple.com\/news\/images\/og\/swiftui-og.png\""
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/core\/model\/QL_extrenal_login.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/core\/model\/QL_extrenal_login.swift",
       "kind": "StringLiteral",
       "offset": 433,
       "length": 8,
       "value": "\"userId\""
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/controller\/QL_streak_api_service.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/controller\/QL_streak_api_service.swift",
       "kind": "BooleanLiteral",
       "offset": 491,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/controller\/QL_streak_api_service.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/controller\/QL_streak_api_service.swift",
       "kind": "StringLiteral",
       "offset": 582,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/controller\/QL_streak_api_service.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/controller\/QL_streak_api_service.swift",
       "kind": "IntegerLiteral",
       "offset": 623,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/controller\/QL_streak_api_service.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/controller\/QL_streak_api_service.swift",
       "kind": "IntegerLiteral",
       "offset": 660,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/model\/QL_streak_component_response.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/model\/QL_streak_component_response.swift",
       "kind": "StringLiteral",
       "offset": 959,
       "length": 5,
       "value": "\"_id\""
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/model\/QL_streak_component_response.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/model\/QL_streak_component_response.swift",
       "kind": "StringLiteral",
       "offset": 1677,
       "length": 5,
       "value": "\"_id\""
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QLModularComponent\/QLStreakModiular.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QLModularComponent\/QLStreakModiular.swift",
       "kind": "StringLiteral",
       "offset": 4058,
       "length": 6,
       "value": "\"Jyve\""
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QLModularComponent\/QLStreakModiular.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QLModularComponent\/QLStreakModiular.swift",
       "kind": "StringLiteral",
       "offset": 4084,
       "length": 12,
       "value": "\"5xp-streak\""
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QLModularComponent\/QLStreakModiular.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QLModularComponent\/QLStreakModiular.swift",
       "kind": "StringLiteral",
       "offset": 4119,
       "length": 17,
       "value": "\"Streak Progress\""
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QLModularComponent\/QLStreakModiular.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QLModularComponent\/QLStreakModiular.swift",
       "kind": "StringLiteral",
       "offset": 4169,
       "length": 46,
       "value": "\"This is the longest streak you’ve ever had\""
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QLModularComponent\/QLStreakModiular.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QLModularComponent\/QLStreakModiular.swift",
       "kind": "StringLiteral",
       "offset": 4233,
       "length": 40,
       "value": "\"c-917e4fc9-67a8-4b1c-87d4-148491dde192\""
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QLModularComponent\/QLStreakModiular.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QLModularComponent\/QLStreakModiular.swift",
       "kind": "StringLiteral",
       "offset": 4290,
       "length": 41,
       "value": "\"co-766762d6-ddc4-4551-a2fd-675c4dd06104\""
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QLModularComponent\/QLStreakModiular.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QLModularComponent\/QLStreakModiular.swift",
       "kind": "StringLiteral",
       "offset": 4401,
       "length": 40,
       "value": "\"e-d06283d3-d671-4f3c-a829-ffcfdb0f29f7\""
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QLModularComponent\/QLStreakModiular.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QLModularComponent\/QLStreakModiular.swift",
       "kind": "StringLiteral",
       "offset": 4457,
       "length": 40,
       "value": "\"k-55efda92-975a-4070-8283-f1a77eb2b1c5\""
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QLModularComponent\/QLStreakModiular.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QLModularComponent\/QLStreakModiular.swift",
       "kind": "StringLiteral",
       "offset": 4567,
       "length": 17,
       "value": "\"Streak Progress\""
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QLModularComponent\/QLStreakModiular.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QLModularComponent\/QLStreakModiular.swift",
       "kind": "StringLiteral",
       "offset": 4684,
       "length": 46,
       "value": "\"This is the longest streak you’ve ever had\""
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QLModularComponent\/QLStreakModiular.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QLModularComponent\/QLStreakModiular.swift",
       "kind": "StringLiteral",
       "offset": 4880,
       "length": 7,
       "value": "\"xmark\""
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QLModularComponent\/QLStreakModiular.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QLModularComponent\/QLStreakModiular.swift",
       "kind": "IntegerLiteral",
       "offset": 4944,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QLModularComponent\/QLStreakModiular.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QLModularComponent\/QLStreakModiular.swift",
       "kind": "IntegerLiteral",
       "offset": 4956,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/widgets\/QL_streak_loader.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/widgets\/QL_streak_loader.swift",
       "kind": "FloatLiteral",
       "offset": 177,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QL_streak_component_modularized.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QL_streak_component_modularized.swift",
       "kind": "StringLiteral",
       "offset": 2838,
       "length": 17,
       "value": "\"Streak Progress\""
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QL_streak_component_modularized.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QL_streak_component_modularized.swift",
       "kind": "StringLiteral",
       "offset": 2882,
       "length": 46,
       "value": "\"This is the longest streak you’ve ever had\""
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QL_streak_component_modularized.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QL_streak_component_modularized.swift",
       "kind": "StringLiteral",
       "offset": 2946,
       "length": 9,
       "value": "\"#e6ebec\""
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QL_streak_component_modularized.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QL_streak_component_modularized.swift",
       "kind": "StringLiteral",
       "offset": 3019,
       "length": 46,
       "value": "\"This is the longest streak you’ve ever had\""
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QL_streak_component_modularized.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QL_streak_component_modularized.swift",
       "kind": "StringLiteral",
       "offset": 3074,
       "length": 18,
       "value": "\"Confident Reader\""
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QL_streak_component_modularized.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QL_streak_component_modularized.swift",
       "kind": "IntegerLiteral",
       "offset": 3101,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QL_streak_component_modularized.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QL_streak_component_modularized.swift",
       "kind": "StringLiteral",
       "offset": 3144,
       "length": 24,
       "value": "\"Keep up the good work!\""
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QL_streak_component_modularized.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QL_streak_component_modularized.swift",
       "kind": "StringLiteral",
       "offset": 3177,
       "length": 17,
       "value": "\"Serious Learner\""
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QL_streak_component_modularized.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QL_streak_component_modularized.swift",
       "kind": "IntegerLiteral",
       "offset": 3203,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QL_streak_component_modularized.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QL_streak_component_modularized.swift",
       "kind": "StringLiteral",
       "offset": 3246,
       "length": 17,
       "value": "\"You're on fire!\""
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QL_streak_component_modularized.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QL_streak_component_modularized.swift",
       "kind": "StringLiteral",
       "offset": 3272,
       "length": 17,
       "value": "\"Absolute Reader\""
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QL_streak_component_modularized.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QL_streak_component_modularized.swift",
       "kind": "IntegerLiteral",
       "offset": 3298,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QL_streak_component_modularized.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QL_streak_component_modularized.swift",
       "kind": "StringLiteral",
       "offset": 3341,
       "length": 17,
       "value": "\"You're on fire!\""
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QL_streak_component_modularized.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QL_streak_component_modularized.swift",
       "kind": "StringLiteral",
       "offset": 3367,
       "length": 17,
       "value": "\"Absolute Reader\""
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QL_streak_component_modularized.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QL_streak_component_modularized.swift",
       "kind": "IntegerLiteral",
       "offset": 3393,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/utils\/QL_constants.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/utils\/QL_constants.swift",
       "kind": "StringLiteral",
       "offset": 227,
       "length": 15,
       "value": "\"accumulatedXP\""
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/utils\/QL_constants.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/utils\/QL_constants.swift",
       "kind": "StringLiteral",
       "offset": 298,
       "length": 8,
       "value": "\"apiKey\""
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/utils\/QL_constants.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/utils\/QL_constants.swift",
       "kind": "StringLiteral",
       "offset": 334,
       "length": 11,
       "value": "\"apiSecret\""
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/utils\/QL_constants.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/utils\/QL_constants.swift",
       "kind": "StringLiteral",
       "offset": 369,
       "length": 7,
       "value": "\"token\""
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/utils\/QL_constants.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/utils\/QL_constants.swift",
       "kind": "StringLiteral",
       "offset": 409,
       "length": 16,
       "value": "\"extrenalUserId\""
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/webview_components\/model\/QL_webview_model.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/webview_components\/model\/QL_webview_model.swift",
       "kind": "BooleanLiteral",
       "offset": 194,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/webview_components\/model\/QL_webview_model.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/webview_components\/model\/QL_webview_model.swift",
       "kind": "BooleanLiteral",
       "offset": 237,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/webview_components\/model\/QL_webview_model.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/webview_components\/model\/QL_webview_model.swift",
       "kind": "BooleanLiteral",
       "offset": 283,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/webview_components\/model\/QL_webview_model.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/webview_components\/model\/QL_webview_model.swift",
       "kind": "StringLiteral",
       "offset": 324,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/vishal\/work coding\/quest ios and android sdk\/frameworks\/quest_ios_sdk\/quest_ios_sdk\/Quest_Sdk\/webview_components\/model\/QL_webview_model.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/webview_components\/model\/QL_webview_model.swift",
       "kind": "StringLiteral",
       "offset": 449,
       "length": 77,
       "value": "\"https:\/\/master.dx6twpukqhcfh.amplifyapp.com\/jyve\/challenges\/?userId=dhaanu3\""
     },
     {
-      "filePath": "\/Users\/vishal\/Library\/Developer\/Xcode\/DerivedData\/quest_ios_sdk-ehxhoizxdtovnpbaflpzulcussde\/Build\/Intermediates.noindex\/quest_ios_sdk.build\/Debug-iphoneos\/quest_ios_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/webview_components\/view\/QL_webview_widget.swift",
+      "kind": "StringLiteral",
+      "offset": 904,
+      "length": 83,
+      "value": "\"https:\/\/master.dx6twpukqhcfh.amplifyapp.com\/jyve\/spin-the-wheel\/?userId=dummyuser\""
+    },
+    {
+      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/webview_components\/view\/QL_webview_widget.swift",
+      "kind": "StringLiteral",
+      "offset": 1020,
+      "length": 15,
+      "value": "\"closed the ui\""
+    },
+    {
+      "filePath": "\/Users\/vishal\/Library\/Developer\/Xcode\/DerivedData\/quest_ios_sdk-efnriovrdbwvfsgcwgkrjmgnbelx\/Build\/Intermediates.noindex\/quest_ios_sdk.build\/Debug-iphoneos\/quest_ios_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 819,
       "length": 9,
       "value": "\"gift_xp\""
     },
     {
-      "filePath": "\/Users\/vishal\/Library\/Developer\/Xcode\/DerivedData\/quest_ios_sdk-ehxhoizxdtovnpbaflpzulcussde\/Build\/Intermediates.noindex\/quest_ios_sdk.build\/Debug-iphoneos\/quest_ios_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/vishal\/Library\/Developer\/Xcode\/DerivedData\/quest_ios_sdk-efnriovrdbwvfsgcwgkrjmgnbelx\/Build\/Intermediates.noindex\/quest_ios_sdk.build\/Debug-iphoneos\/quest_ios_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 982,
       "length": 14,
       "value": "\"ic_jyve_logo\""
     },
     {
-      "filePath": "\/Users\/vishal\/Library\/Developer\/Xcode\/DerivedData\/quest_ios_sdk-ehxhoizxdtovnpbaflpzulcussde\/Build\/Intermediates.noindex\/quest_ios_sdk.build\/Debug-iphoneos\/quest_ios_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/vishal\/Library\/Developer\/Xcode\/DerivedData\/quest_ios_sdk-efnriovrdbwvfsgcwgkrjmgnbelx\/Build\/Intermediates.noindex\/quest_ios_sdk.build\/Debug-iphoneos\/quest_ios_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1137,
       "length": 7,
       "value": "\"ic_xp\""
     },
     {
-      "filePath": "\/Users\/vishal\/Library\/Developer\/Xcode\/DerivedData\/quest_ios_sdk-ehxhoizxdtovnpbaflpzulcussde\/Build\/Intermediates.noindex\/quest_ios_sdk.build\/Debug-iphoneos\/quest_ios_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/vishal\/Library\/Developer\/Xcode\/DerivedData\/quest_ios_sdk-efnriovrdbwvfsgcwgkrjmgnbelx\/Build\/Intermediates.noindex\/quest_ios_sdk.build\/Debug-iphoneos\/quest_ios_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1298,
       "length": 14,
       "value": "\"ic_xp_active\""
     },
     {
-      "filePath": "\/Users\/vishal\/Library\/Developer\/Xcode\/DerivedData\/quest_ios_sdk-ehxhoizxdtovnpbaflpzulcussde\/Build\/Intermediates.noindex\/quest_ios_sdk.build\/Debug-iphoneos\/quest_ios_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/vishal\/Library\/Developer\/Xcode\/DerivedData\/quest_ios_sdk-efnriovrdbwvfsgcwgkrjmgnbelx\/Build\/Intermediates.noindex\/quest_ios_sdk.build\/Debug-iphoneos\/quest_ios_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1472,
       "length": 17,
       "value": "\"ic_xp_completed\""
     },
     {
-      "filePath": "\/Users\/vishal\/Library\/Developer\/Xcode\/DerivedData\/quest_ios_sdk-ehxhoizxdtovnpbaflpzulcussde\/Build\/Intermediates.noindex\/quest_ios_sdk.build\/Debug-iphoneos\/quest_ios_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/vishal\/Library\/Developer\/Xcode\/DerivedData\/quest_ios_sdk-efnriovrdbwvfsgcwgkrjmgnbelx\/Build\/Intermediates.noindex\/quest_ios_sdk.build\/Debug-iphoneos\/quest_ios_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1647,
       "length": 16,
       "value": "\"ic_xp_deactive\""
     },
     {
-      "filePath": "\/Users\/vishal\/Library\/Developer\/Xcode\/DerivedData\/quest_ios_sdk-ehxhoizxdtovnpbaflpzulcussde\/Build\/Intermediates.noindex\/quest_ios_sdk.build\/Debug-iphoneos\/quest_ios_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/vishal\/Library\/Developer\/Xcode\/DerivedData\/quest_ios_sdk-efnriovrdbwvfsgcwgkrjmgnbelx\/Build\/Intermediates.noindex\/quest_ios_sdk.build\/Debug-iphoneos\/quest_ios_sdk.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1827,
       "length": 19,
