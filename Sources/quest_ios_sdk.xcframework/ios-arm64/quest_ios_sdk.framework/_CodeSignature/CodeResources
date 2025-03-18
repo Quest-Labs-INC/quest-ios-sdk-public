@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/quest_ios_sdk.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		F9G02BuVQ2Vl03vFQk2KGmJZm5o=
+		HPxvUEEwbtBfGiXvSD4OmHiRw4o=
 		</data>
 		<key>Modules/quest_ios_sdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		e/3M/Q80rP/ROylRMPnpdUSKI6A=
+		6E0qRtZ+9YkV1yBXpsFt/+C8XDk=
 		</data>
 		<key>Modules/quest_ios_sdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/quest_ios_sdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		it8pB++vp9xCYbA3SASUS5AuS5Y=
+		4qRb37lLCGa9DcYKdWh4dm+0We4=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -76,14 +76,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9Y0ROzQJz1JoKoaF0yurvAJ9Soa075t6Mb2BUnSVmNc=
+			OXlvv1dm0M+g8exR+1aVCvS8EH4LuarYPd32mPZkTjc=
 			</data>
 		</dict>
 		<key>Modules/quest_ios_sdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ylNesWis6Vn8K8T9h9BxC7NQw3bsM64qvMRvuCSn9XI=
+			ucMAY8I96GiaSFxvt3rhY8D6MxGIMQrbKGadx7sj2jM=
 			</data>
 		</dict>
 		<key>Modules/quest_ios_sdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -111,7 +111,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uM5adl8vBxiMqqfhbEFhU6dGev1AVC1WGcbQ8Xy6YXM=
+			HfBghDYBhnCU6VZL16CwGBeYEYZXnjEuxuOAXk/WdBk=
 			</data>
 		</dict>
 	</dict>

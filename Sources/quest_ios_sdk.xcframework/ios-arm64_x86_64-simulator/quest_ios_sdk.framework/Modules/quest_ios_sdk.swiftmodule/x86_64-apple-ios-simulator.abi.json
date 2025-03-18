@@ -32478,90 +32478,90 @@
       "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QLModularComponent\/QLStreakModiular.swift",
       "kind": "StringLiteral",
       "offset": 4058,
-      "length": 6,
-      "value": "\"Jyve\""
+      "length": 24,
+      "value": "\"testing-jr@example.com\""
     },
     {
       "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QLModularComponent\/QLStreakModiular.swift",
       "kind": "StringLiteral",
-      "offset": 4084,
+      "offset": 4102,
       "length": 12,
       "value": "\"5xp-streak\""
     },
     {
       "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QLModularComponent\/QLStreakModiular.swift",
       "kind": "StringLiteral",
-      "offset": 4119,
+      "offset": 4137,
       "length": 17,
       "value": "\"Streak Progress\""
     },
     {
       "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QLModularComponent\/QLStreakModiular.swift",
       "kind": "StringLiteral",
-      "offset": 4169,
+      "offset": 4187,
       "length": 46,
       "value": "\"This is the longest streak you’ve ever had\""
     },
     {
       "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QLModularComponent\/QLStreakModiular.swift",
       "kind": "StringLiteral",
-      "offset": 4233,
+      "offset": 4251,
       "length": 40,
       "value": "\"c-917e4fc9-67a8-4b1c-87d4-148491dde192\""
     },
     {
       "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QLModularComponent\/QLStreakModiular.swift",
       "kind": "StringLiteral",
-      "offset": 4290,
+      "offset": 4308,
       "length": 41,
       "value": "\"co-766762d6-ddc4-4551-a2fd-675c4dd06104\""
     },
     {
       "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QLModularComponent\/QLStreakModiular.swift",
       "kind": "StringLiteral",
-      "offset": 4401,
+      "offset": 4419,
       "length": 40,
       "value": "\"e-d06283d3-d671-4f3c-a829-ffcfdb0f29f7\""
     },
     {
       "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QLModularComponent\/QLStreakModiular.swift",
       "kind": "StringLiteral",
-      "offset": 4457,
+      "offset": 4475,
       "length": 40,
       "value": "\"k-55efda92-975a-4070-8283-f1a77eb2b1c5\""
     },
     {
       "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QLModularComponent\/QLStreakModiular.swift",
       "kind": "StringLiteral",
-      "offset": 4567,
+      "offset": 4585,
       "length": 17,
       "value": "\"Streak Progress\""
     },
     {
       "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QLModularComponent\/QLStreakModiular.swift",
       "kind": "StringLiteral",
-      "offset": 4684,
+      "offset": 4702,
       "length": 46,
       "value": "\"This is the longest streak you’ve ever had\""
     },
     {
       "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QLModularComponent\/QLStreakModiular.swift",
       "kind": "StringLiteral",
-      "offset": 4880,
+      "offset": 4898,
       "length": 7,
       "value": "\"xmark\""
     },
     {
       "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QLModularComponent\/QLStreakModiular.swift",
       "kind": "IntegerLiteral",
-      "offset": 4944,
+      "offset": 4962,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QLModularComponent\/QLStreakModiular.swift",
       "kind": "IntegerLiteral",
-      "offset": 4956,
+      "offset": 4974,
       "length": 2,
       "value": "12"
     },
