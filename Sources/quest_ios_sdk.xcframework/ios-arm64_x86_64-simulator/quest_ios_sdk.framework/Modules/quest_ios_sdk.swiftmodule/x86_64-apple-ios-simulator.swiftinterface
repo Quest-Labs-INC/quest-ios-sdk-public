@@ -20,7 +20,7 @@ import _SwiftConcurrencyShims
   public typealias Body = @_opaqueReturnTypeOf("$s13quest_ios_sdk11WelcomeViewV4bodyQrvp", 0) __
 }
 @_Concurrency.MainActor @preconcurrency public struct QLCoin : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public init(externalUser: Swift.String, coinViewPoint: Swift.String? = nil, streakComponentConfig: quest_ios_sdk.QLStreakComponentConfig, onTap: @escaping () -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency public init(externalUser: Swift.String, coinViewPoint: Swift.String? = nil, environment: quest_ios_sdk.EnvironmentManager.Environment, streakComponentConfig: quest_ios_sdk.QLStreakComponentConfig, onTap: @escaping () -> Swift.Void)
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
@@ -44,6 +44,21 @@ import _SwiftConcurrencyShims
 
 
 
+@_hasMissingDesignatedInitializers public class EnvironmentManager {
+  public static let shared: quest_ios_sdk.EnvironmentManager
+  public enum Environment {
+    case production
+    case staging
+    public static func == (a: quest_ios_sdk.EnvironmentManager.Environment, b: quest_ios_sdk.EnvironmentManager.Environment) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public func setEnvironment(_ environment: quest_ios_sdk.EnvironmentManager.Environment)
+  public func getBaseURL() -> Swift.String
+  @objc deinit
+}
 @_Concurrency.MainActor @preconcurrency public struct StreakDayCounter : SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public let counterValue: Swift.Int
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
@@ -79,24 +94,15 @@ import _SwiftConcurrencyShims
   public typealias Body = @_opaqueReturnTypeOf("$s13quest_ios_sdk17QLProgressBarViewV4bodyQrvp", 0) __
 }
 @_Concurrency.MainActor @preconcurrency public struct QLStreakComponent : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public init(externalUser: Swift.String, streakMetric: Swift.String, streakViewTitle: Swift.String, streakViewDescriptionText: Swift.String, campaignId: Swift.String, counterId: Swift.String, streakComponentConfig: quest_ios_sdk.QLStreakComponentConfig, streakDayCounter: (() -> SwiftUICore.AnyView)? = nil, streakTitle: (() -> SwiftUICore.AnyView)? = nil, streakDescription: (() -> SwiftUICore.AnyView)? = nil, streakData: (() -> SwiftUICore.AnyView)? = nil, qlProgressBarView: (() -> SwiftUICore.AnyView)? = nil, closeButton: (() -> SwiftUICore.AnyView)? = nil)
+  @_Concurrency.MainActor @preconcurrency public init(externalUser: Swift.String, streakMetric: Swift.String, streakViewTitle: Swift.String, streakViewDescriptionText: Swift.String, campaignId: Swift.String, counterId: Swift.String, streakComponentConfig: quest_ios_sdk.QLStreakComponentConfig, environment: quest_ios_sdk.EnvironmentManager.Environment, streakDayCounter: (() -> SwiftUICore.AnyView)? = nil, streakTitle: (() -> SwiftUICore.AnyView)? = nil, streakDescription: (() -> SwiftUICore.AnyView)? = nil, streakData: (() -> SwiftUICore.AnyView)? = nil, qlProgressBarView: (() -> SwiftUICore.AnyView)? = nil, closeButton: (() -> SwiftUICore.AnyView)? = nil)
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
   public typealias Body = @_opaqueReturnTypeOf("$s13quest_ios_sdk17QLStreakComponentV4bodyQrvp", 0) __
 }
 
-
-@_Concurrency.MainActor @preconcurrency public struct QLStreakComponentModularized : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public init(title: Swift.String, descriptionText: Swift.String, metric: Swift.String, stepDetails: [quest_ios_sdk.QLStepDetails])
-  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
-    get
-  }
-  public typealias Body = @_opaqueReturnTypeOf("$s13quest_ios_sdk28QLStreakComponentModularizedV4bodyQrvp", 0) __
-}
-
 @_Concurrency.MainActor @preconcurrency public struct QLStreakComponentView : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public init(externalUser: Swift.String, streakViewTitle: Swift.String, streakViewDescriptionText: Swift.String, streakMetric: Swift.String, campaignId: Swift.String, counterId: Swift.String, streakComponentConfig: quest_ios_sdk.QLStreakComponentConfig)
+  @_Concurrency.MainActor @preconcurrency public init(externalUser: Swift.String, streakViewTitle: Swift.String, streakViewDescriptionText: Swift.String, environment: quest_ios_sdk.EnvironmentManager.Environment, streakComponentConfig: quest_ios_sdk.QLStreakComponentProps)
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
@@ -125,6 +131,15 @@ public struct QLStreakComponentConfig {
   public let apiKey: Swift.String
   public init(id: Foundation.UUID = UUID(), entityId: Swift.String, apiKey: Swift.String)
 }
+public struct QLStreakComponentProps {
+  public let id: Foundation.UUID
+  public let entityId: Swift.String
+  public let apiKey: Swift.String
+  public let campaignId: Swift.String
+  public let counterId: Swift.String
+  public let streakMetric: Swift.String
+  public init(id: Foundation.UUID = UUID(), entityId: Swift.String, apiKey: Swift.String, campaignId: Swift.String, counterId: Swift.String, streakMetric: Swift.String)
+}
 
 @_Concurrency.MainActor @preconcurrency public struct QLWebviewWidget : SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public init(url: Swift.String, onCloseIframe: (() -> Swift.Void)? = nil)
@@ -139,11 +154,12 @@ extension quest_ios_sdk.WelcomeView : Swift.Sendable {}
 extension quest_ios_sdk.QLCoin : Swift.Sendable {}
 extension quest_ios_sdk.QLCoinComponentView : Swift.Sendable {}
 extension quest_ios_sdk.QLPopUPModal : Swift.Sendable {}
+extension quest_ios_sdk.EnvironmentManager.Environment : Swift.Equatable {}
+extension quest_ios_sdk.EnvironmentManager.Environment : Swift.Hashable {}
 extension quest_ios_sdk.StreakDayCounter : Swift.Sendable {}
 extension quest_ios_sdk.StreakHeader : Swift.Sendable {}
 extension quest_ios_sdk.StreakDescription : Swift.Sendable {}
 extension quest_ios_sdk.QLProgressBarView : Swift.Sendable {}
 extension quest_ios_sdk.QLStreakComponent : Swift.Sendable {}
-extension quest_ios_sdk.QLStreakComponentModularized : Swift.Sendable {}
 extension quest_ios_sdk.QLStreakComponentView : Swift.Sendable {}
 extension quest_ios_sdk.QLWebviewWidget : Swift.Sendable {}
