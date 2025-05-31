@@ -26,15 +26,15 @@
 		</data>
 		<key>Modules/quest_ios_sdk.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		vnMYR6eYksHeKqHMb/YvawuFsF4=
+		wysLUN8FeLr4QgAF7tMH95Awtl8=
 		</data>
 		<key>Modules/quest_ios_sdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		v5TlDt3bkAhV/aShE/YZ0EQSBTA=
+		wF9G49Pvj75k6sRefqxOu9ryqHQ=
 		</data>
 		<key>Modules/quest_ios_sdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		OB06uTKhUA4piVVXLoH7OGXgRAE=
+		XmMIVLWBP6Td6oOw0jdwLbB370Q=
 		</data>
 		<key>Modules/quest_ios_sdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Modules/quest_ios_sdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		OB06uTKhUA4piVVXLoH7OGXgRAE=
+		XmMIVLWBP6Td6oOw0jdwLbB370Q=
 		</data>
 		<key>Modules/quest_ios_sdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		b3eTA29ZBY4wcXPJJ2zzqeRa+Ck=
+		PjKcs808QWf0G4l4EailcqcBVYE=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -76,21 +76,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JkdzchnNtwVkzBEbIpFNm9LfJwjQhleQ3XRLoi3Pwz0=
+			xsaYl4Zi/heFdCnjM/yT3SjX0st5lyOdwNGukhkiMmo=
 			</data>
 		</dict>
 		<key>Modules/quest_ios_sdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gScC+jEuVPSB0O6zQpwJwrdDSfxtch5qJ7avGltrxfg=
+			W2+j6xHs7tnyMbCyP9ItNPDMMbM2+mfqUZBf2DGptJs=
 			</data>
 		</dict>
 		<key>Modules/quest_ios_sdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ulLtkUzsdy6Es5H3kYoTPmDydtJbsVC6zkp0G74vM7c=
+			7Ig3f+cfBhdAd9ajzTuJVoBs7kIprlDAia+dNh/etlg=
 			</data>
 		</dict>
 		<key>Modules/quest_ios_sdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -104,14 +104,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ulLtkUzsdy6Es5H3kYoTPmDydtJbsVC6zkp0G74vM7c=
+			7Ig3f+cfBhdAd9ajzTuJVoBs7kIprlDAia+dNh/etlg=
 			</data>
 		</dict>
 		<key>Modules/quest_ios_sdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			84cQKBRAo+ujEurjXmkJ0+d/58AB6pffmx0uWv4xyVo=
+			Hscopd6WATcJDEymE7RjcPP/FNMz9M6m+KswP+7usSU=
 			</data>
 		</dict>
 	</dict>

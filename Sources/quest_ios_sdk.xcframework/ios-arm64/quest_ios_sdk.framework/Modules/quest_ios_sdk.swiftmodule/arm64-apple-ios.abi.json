@@ -8786,6 +8786,353 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "EnvironmentManager",
+        "printedName": "EnvironmentManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EnvironmentManager",
+                "printedName": "quest_ios_sdk.EnvironmentManager",
+                "usr": "s:13quest_ios_sdk18EnvironmentManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13quest_ios_sdk18EnvironmentManagerC6sharedACvpZ",
+            "mangledName": "$s13quest_ios_sdk18EnvironmentManagerC6sharedACvpZ",
+            "moduleName": "quest_ios_sdk",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EnvironmentManager",
+                    "printedName": "quest_ios_sdk.EnvironmentManager",
+                    "usr": "s:13quest_ios_sdk18EnvironmentManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13quest_ios_sdk18EnvironmentManagerC6sharedACvgZ",
+                "mangledName": "$s13quest_ios_sdk18EnvironmentManagerC6sharedACvgZ",
+                "moduleName": "quest_ios_sdk",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Environment",
+            "printedName": "Environment",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "production",
+                "printedName": "production",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(quest_ios_sdk.EnvironmentManager.Environment.Type) -> quest_ios_sdk.EnvironmentManager.Environment",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Environment",
+                        "printedName": "quest_ios_sdk.EnvironmentManager.Environment",
+                        "usr": "s:13quest_ios_sdk18EnvironmentManagerC0D0O"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "quest_ios_sdk.EnvironmentManager.Environment.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Environment",
+                            "printedName": "quest_ios_sdk.EnvironmentManager.Environment",
+                            "usr": "s:13quest_ios_sdk18EnvironmentManagerC0D0O"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:13quest_ios_sdk18EnvironmentManagerC0D0O10productionyA2EmF",
+                "mangledName": "$s13quest_ios_sdk18EnvironmentManagerC0D0O10productionyA2EmF",
+                "moduleName": "quest_ios_sdk"
+              },
+              {
+                "kind": "Var",
+                "name": "staging",
+                "printedName": "staging",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(quest_ios_sdk.EnvironmentManager.Environment.Type) -> quest_ios_sdk.EnvironmentManager.Environment",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Environment",
+                        "printedName": "quest_ios_sdk.EnvironmentManager.Environment",
+                        "usr": "s:13quest_ios_sdk18EnvironmentManagerC0D0O"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "quest_ios_sdk.EnvironmentManager.Environment.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Environment",
+                            "printedName": "quest_ios_sdk.EnvironmentManager.Environment",
+                            "usr": "s:13quest_ios_sdk18EnvironmentManagerC0D0O"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:13quest_ios_sdk18EnvironmentManagerC0D0O7stagingyA2EmF",
+                "mangledName": "$s13quest_ios_sdk18EnvironmentManagerC0D0O7stagingyA2EmF",
+                "moduleName": "quest_ios_sdk"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Environment",
+                    "printedName": "quest_ios_sdk.EnvironmentManager.Environment",
+                    "usr": "s:13quest_ios_sdk18EnvironmentManagerC0D0O"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Environment",
+                    "printedName": "quest_ios_sdk.EnvironmentManager.Environment",
+                    "usr": "s:13quest_ios_sdk18EnvironmentManagerC0D0O"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:13quest_ios_sdk18EnvironmentManagerC0D0O2eeoiySbAE_AEtFZ",
+                "mangledName": "$s13quest_ios_sdk18EnvironmentManagerC0D0O2eeoiySbAE_AEtFZ",
+                "moduleName": "quest_ios_sdk",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:13quest_ios_sdk18EnvironmentManagerC0D0O9hashValueSivp",
+                "mangledName": "$s13quest_ios_sdk18EnvironmentManagerC0D0O9hashValueSivp",
+                "moduleName": "quest_ios_sdk",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:13quest_ios_sdk18EnvironmentManagerC0D0O9hashValueSivg",
+                    "mangledName": "$s13quest_ios_sdk18EnvironmentManagerC0D0O9hashValueSivg",
+                    "moduleName": "quest_ios_sdk",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:13quest_ios_sdk18EnvironmentManagerC0D0O4hash4intoys6HasherVz_tF",
+                "mangledName": "$s13quest_ios_sdk18EnvironmentManagerC0D0O4hash4intoys6HasherVz_tF",
+                "moduleName": "quest_ios_sdk",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:13quest_ios_sdk18EnvironmentManagerC0D0O",
+            "mangledName": "$s13quest_ios_sdk18EnvironmentManagerC0D0O",
+            "moduleName": "quest_ios_sdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setEnvironment",
+            "printedName": "setEnvironment(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Environment",
+                "printedName": "quest_ios_sdk.EnvironmentManager.Environment",
+                "usr": "s:13quest_ios_sdk18EnvironmentManagerC0D0O"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13quest_ios_sdk18EnvironmentManagerC03setD0yyAC0D0OF",
+            "mangledName": "$s13quest_ios_sdk18EnvironmentManagerC03setD0yyAC0D0OF",
+            "moduleName": "quest_ios_sdk",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getBaseURL",
+            "printedName": "getBaseURL()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13quest_ios_sdk18EnvironmentManagerC10getBaseURLSSyF",
+            "mangledName": "$s13quest_ios_sdk18EnvironmentManagerC10getBaseURLSSyF",
+            "moduleName": "quest_ios_sdk",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13quest_ios_sdk18EnvironmentManagerC",
+        "mangledName": "$s13quest_ios_sdk18EnvironmentManagerC",
+        "moduleName": "quest_ios_sdk",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -24147,1446 +24494,6 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "QLStreakComponentModularized",
-        "printedName": "QLStreakComponentModularized",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "viewModel",
-            "printedName": "viewModel",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "QLStreakViewModel",
-                "printedName": "quest_ios_sdk.QLStreakViewModel",
-                "usr": "s:13quest_ios_sdk17QLStreakViewModelC"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13quest_ios_sdk28QLStreakComponentModularizedV9viewModelAA0d4ViewH0Cvp",
-            "mangledName": "$s13quest_ios_sdk28QLStreakComponentModularizedV9viewModelAA0d4ViewH0Cvp",
-            "moduleName": "quest_ios_sdk",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "ProjectedValueProperty",
-              "Custom"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "QLStreakViewModel",
-                    "printedName": "quest_ios_sdk.QLStreakViewModel",
-                    "usr": "s:13quest_ios_sdk17QLStreakViewModelC"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13quest_ios_sdk28QLStreakComponentModularizedV9viewModelAA0d4ViewH0Cvg",
-                "mangledName": "$s13quest_ios_sdk28QLStreakComponentModularizedV9viewModelAA0d4ViewH0Cvg",
-                "moduleName": "quest_ios_sdk",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "QLStreakViewModel",
-                    "printedName": "quest_ios_sdk.QLStreakViewModel",
-                    "usr": "s:13quest_ios_sdk17QLStreakViewModelC"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13quest_ios_sdk28QLStreakComponentModularizedV9viewModelAA0d4ViewH0Cvs",
-                "mangledName": "$s13quest_ios_sdk28QLStreakComponentModularizedV9viewModelAA0d4ViewH0Cvs",
-                "moduleName": "quest_ios_sdk",
-                "implicit": true,
-                "intro_Macosx": "10.15",
-                "intro_iOS": "13.0",
-                "intro_tvOS": "13.0",
-                "intro_watchOS": "6.0",
-                "declAttributes": [
-                  "Available",
-                  "Available",
-                  "Available",
-                  "Available"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13quest_ios_sdk28QLStreakComponentModularizedV9viewModelAA0d4ViewH0CvM",
-                "mangledName": "$s13quest_ios_sdk28QLStreakComponentModularizedV9viewModelAA0d4ViewH0CvM",
-                "moduleName": "quest_ios_sdk",
-                "implicit": true,
-                "intro_Macosx": "10.15",
-                "intro_iOS": "13.0",
-                "intro_tvOS": "13.0",
-                "intro_watchOS": "6.0",
-                "declAttributes": [
-                  "Available",
-                  "Available",
-                  "Available",
-                  "Available"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "$viewModel",
-            "printedName": "$viewModel",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Wrapper",
-                "printedName": "SwiftUI.ObservedObject<quest_ios_sdk.QLStreakViewModel>.Wrapper",
-                "usr": "s:7SwiftUI14ObservedObjectV7WrapperV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13quest_ios_sdk28QLStreakComponentModularizedV10$viewModel7SwiftUI14ObservedObjectV7WrapperVyAA0d4ViewH0C_Gvp",
-            "mangledName": "$s13quest_ios_sdk28QLStreakComponentModularizedV10$viewModel7SwiftUI14ObservedObjectV7WrapperVyAA0d4ViewH0C_Gvp",
-            "moduleName": "quest_ios_sdk",
-            "implicit": true,
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Wrapper",
-                    "printedName": "SwiftUI.ObservedObject<quest_ios_sdk.QLStreakViewModel>.Wrapper",
-                    "usr": "s:7SwiftUI14ObservedObjectV7WrapperV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13quest_ios_sdk28QLStreakComponentModularizedV10$viewModel7SwiftUI14ObservedObjectV7WrapperVyAA0d4ViewH0C_Gvg",
-                "mangledName": "$s13quest_ios_sdk28QLStreakComponentModularizedV10$viewModel7SwiftUI14ObservedObjectV7WrapperVyAA0d4ViewH0C_Gvg",
-                "moduleName": "quest_ios_sdk",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "title",
-            "printedName": "title",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13quest_ios_sdk28QLStreakComponentModularizedV5titleSSvp",
-            "mangledName": "$s13quest_ios_sdk28QLStreakComponentModularizedV5titleSSvp",
-            "moduleName": "quest_ios_sdk",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "HasStorage"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13quest_ios_sdk28QLStreakComponentModularizedV5titleSSvg",
-                "mangledName": "$s13quest_ios_sdk28QLStreakComponentModularizedV5titleSSvg",
-                "moduleName": "quest_ios_sdk",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "descriptionText",
-            "printedName": "descriptionText",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13quest_ios_sdk28QLStreakComponentModularizedV15descriptionTextSSvp",
-            "mangledName": "$s13quest_ios_sdk28QLStreakComponentModularizedV15descriptionTextSSvp",
-            "moduleName": "quest_ios_sdk",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "HasStorage"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13quest_ios_sdk28QLStreakComponentModularizedV15descriptionTextSSvg",
-                "mangledName": "$s13quest_ios_sdk28QLStreakComponentModularizedV15descriptionTextSSvg",
-                "moduleName": "quest_ios_sdk",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "metric",
-            "printedName": "metric",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13quest_ios_sdk28QLStreakComponentModularizedV6metricSSvp",
-            "mangledName": "$s13quest_ios_sdk28QLStreakComponentModularizedV6metricSSvp",
-            "moduleName": "quest_ios_sdk",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "HasStorage"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13quest_ios_sdk28QLStreakComponentModularizedV6metricSSvg",
-                "mangledName": "$s13quest_ios_sdk28QLStreakComponentModularizedV6metricSSvg",
-                "moduleName": "quest_ios_sdk",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "stepDetails",
-            "printedName": "stepDetails",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[quest_ios_sdk.QLStepDetails]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "QLStepDetails",
-                    "printedName": "quest_ios_sdk.QLStepDetails",
-                    "usr": "s:13quest_ios_sdk13QLStepDetailsV"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13quest_ios_sdk28QLStreakComponentModularizedV11stepDetailsSayAA06QLStepH0VGvp",
-            "mangledName": "$s13quest_ios_sdk28QLStreakComponentModularizedV11stepDetailsSayAA06QLStepH0VGvp",
-            "moduleName": "quest_ios_sdk",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "HasStorage"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[quest_ios_sdk.QLStepDetails]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "QLStepDetails",
-                        "printedName": "quest_ios_sdk.QLStepDetails",
-                        "usr": "s:13quest_ios_sdk13QLStepDetailsV"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13quest_ios_sdk28QLStreakComponentModularizedV11stepDetailsSayAA06QLStepH0VGvg",
-                "mangledName": "$s13quest_ios_sdk28QLStreakComponentModularizedV11stepDetailsSayAA06QLStepH0VGvg",
-                "moduleName": "quest_ios_sdk",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(title:descriptionText:metric:stepDetails:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "QLStreakComponentModularized",
-                "printedName": "quest_ios_sdk.QLStreakComponentModularized",
-                "usr": "s:13quest_ios_sdk28QLStreakComponentModularizedV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[quest_ios_sdk.QLStepDetails]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "QLStepDetails",
-                    "printedName": "quest_ios_sdk.QLStepDetails",
-                    "usr": "s:13quest_ios_sdk13QLStepDetailsV"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:13quest_ios_sdk28QLStreakComponentModularizedV5title15descriptionText6metric11stepDetailsACSS_S2SSayAA06QLStepL0VGtcfc",
-            "mangledName": "$s13quest_ios_sdk28QLStreakComponentModularizedV5title15descriptionText6metric11stepDetailsACSS_S2SSayAA06QLStepL0VGtcfc",
-            "moduleName": "quest_ios_sdk",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "body",
-            "printedName": "body",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OpaqueTypeArchetype",
-                "printedName": "some SwiftUI.View",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13quest_ios_sdk28QLStreakComponentModularizedV4bodyQrvp",
-            "mangledName": "$s13quest_ios_sdk28QLStreakComponentModularizedV4bodyQrvp",
-            "moduleName": "quest_ios_sdk",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13quest_ios_sdk28QLStreakComponentModularizedV4bodyQrvg",
-                "mangledName": "$s13quest_ios_sdk28QLStreakComponentModularizedV4bodyQrvg",
-                "moduleName": "quest_ios_sdk",
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:13quest_ios_sdk28QLStreakComponentModularizedV",
-        "mangledName": "$s13quest_ios_sdk28QLStreakComponentModularizedV",
-        "moduleName": "quest_ios_sdk",
-        "declAttributes": [
-          "Preconcurrency",
-          "Custom",
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "View",
-            "printedName": "View",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Body",
-                "printedName": "Body",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI4ViewP",
-            "mangledName": "$s7SwiftUI4ViewP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "TitleView",
-        "printedName": "TitleView",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "text",
-            "printedName": "text",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13quest_ios_sdk9TitleViewV4textSSvp",
-            "mangledName": "$s13quest_ios_sdk9TitleViewV4textSSvp",
-            "moduleName": "quest_ios_sdk",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "HasStorage"
-            ],
-            "fixedbinaryorder": 0,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13quest_ios_sdk9TitleViewV4textSSvg",
-                "mangledName": "$s13quest_ios_sdk9TitleViewV4textSSvg",
-                "moduleName": "quest_ios_sdk",
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "body",
-            "printedName": "body",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OpaqueTypeArchetype",
-                "printedName": "some SwiftUI.View",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13quest_ios_sdk9TitleViewV4bodyQrvp",
-            "mangledName": "$s13quest_ios_sdk9TitleViewV4bodyQrvp",
-            "moduleName": "quest_ios_sdk",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13quest_ios_sdk9TitleViewV4bodyQrvg",
-                "mangledName": "$s13quest_ios_sdk9TitleViewV4bodyQrvg",
-                "moduleName": "quest_ios_sdk",
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(text:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "TitleView",
-                "printedName": "quest_ios_sdk.TitleView",
-                "usr": "s:13quest_ios_sdk9TitleViewV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:13quest_ios_sdk9TitleViewV4textACSS_tcfc",
-            "mangledName": "$s13quest_ios_sdk9TitleViewV4textACSS_tcfc",
-            "moduleName": "quest_ios_sdk",
-            "implicit": true,
-            "declAttributes": [
-              "Nonisolated"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:13quest_ios_sdk9TitleViewV",
-        "mangledName": "$s13quest_ios_sdk9TitleViewV",
-        "moduleName": "quest_ios_sdk",
-        "declAttributes": [
-          "Preconcurrency",
-          "Custom"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "View",
-            "printedName": "View",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Body",
-                "printedName": "Body",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI4ViewP",
-            "mangledName": "$s7SwiftUI4ViewP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "DescriptionView",
-        "printedName": "DescriptionView",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "descriptionText",
-            "printedName": "descriptionText",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13quest_ios_sdk15DescriptionViewV15descriptionTextSSvp",
-            "mangledName": "$s13quest_ios_sdk15DescriptionViewV15descriptionTextSSvp",
-            "moduleName": "quest_ios_sdk",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "HasStorage"
-            ],
-            "fixedbinaryorder": 0,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13quest_ios_sdk15DescriptionViewV15descriptionTextSSvg",
-                "mangledName": "$s13quest_ios_sdk15DescriptionViewV15descriptionTextSSvg",
-                "moduleName": "quest_ios_sdk",
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "body",
-            "printedName": "body",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OpaqueTypeArchetype",
-                "printedName": "some SwiftUI.View",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13quest_ios_sdk15DescriptionViewV4bodyQrvp",
-            "mangledName": "$s13quest_ios_sdk15DescriptionViewV4bodyQrvp",
-            "moduleName": "quest_ios_sdk",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13quest_ios_sdk15DescriptionViewV4bodyQrvg",
-                "mangledName": "$s13quest_ios_sdk15DescriptionViewV4bodyQrvg",
-                "moduleName": "quest_ios_sdk",
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(descriptionText:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "DescriptionView",
-                "printedName": "quest_ios_sdk.DescriptionView",
-                "usr": "s:13quest_ios_sdk15DescriptionViewV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:13quest_ios_sdk15DescriptionViewV15descriptionTextACSS_tcfc",
-            "mangledName": "$s13quest_ios_sdk15DescriptionViewV15descriptionTextACSS_tcfc",
-            "moduleName": "quest_ios_sdk",
-            "implicit": true,
-            "declAttributes": [
-              "Nonisolated"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:13quest_ios_sdk15DescriptionViewV",
-        "mangledName": "$s13quest_ios_sdk15DescriptionViewV",
-        "moduleName": "quest_ios_sdk",
-        "declAttributes": [
-          "Preconcurrency",
-          "Custom"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "View",
-            "printedName": "View",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Body",
-                "printedName": "Body",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI4ViewP",
-            "mangledName": "$s7SwiftUI4ViewP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "StreakDayLabelView",
-        "printedName": "StreakDayLabelView",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "streakDays",
-            "printedName": "streakDays",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13quest_ios_sdk18StreakDayLabelViewV10streakDaysSSvp",
-            "mangledName": "$s13quest_ios_sdk18StreakDayLabelViewV10streakDaysSSvp",
-            "moduleName": "quest_ios_sdk",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "HasStorage"
-            ],
-            "fixedbinaryorder": 0,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13quest_ios_sdk18StreakDayLabelViewV10streakDaysSSvg",
-                "mangledName": "$s13quest_ios_sdk18StreakDayLabelViewV10streakDaysSSvg",
-                "moduleName": "quest_ios_sdk",
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "body",
-            "printedName": "body",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OpaqueTypeArchetype",
-                "printedName": "some SwiftUI.View",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13quest_ios_sdk18StreakDayLabelViewV4bodyQrvp",
-            "mangledName": "$s13quest_ios_sdk18StreakDayLabelViewV4bodyQrvp",
-            "moduleName": "quest_ios_sdk",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13quest_ios_sdk18StreakDayLabelViewV4bodyQrvg",
-                "mangledName": "$s13quest_ios_sdk18StreakDayLabelViewV4bodyQrvg",
-                "moduleName": "quest_ios_sdk",
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(streakDays:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "StreakDayLabelView",
-                "printedName": "quest_ios_sdk.StreakDayLabelView",
-                "usr": "s:13quest_ios_sdk18StreakDayLabelViewV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:13quest_ios_sdk18StreakDayLabelViewV10streakDaysACSS_tcfc",
-            "mangledName": "$s13quest_ios_sdk18StreakDayLabelViewV10streakDaysACSS_tcfc",
-            "moduleName": "quest_ios_sdk",
-            "implicit": true,
-            "declAttributes": [
-              "Nonisolated"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:13quest_ios_sdk18StreakDayLabelViewV",
-        "mangledName": "$s13quest_ios_sdk18StreakDayLabelViewV",
-        "moduleName": "quest_ios_sdk",
-        "declAttributes": [
-          "Preconcurrency",
-          "Custom"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "View",
-            "printedName": "View",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Body",
-                "printedName": "Body",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI4ViewP",
-            "mangledName": "$s7SwiftUI4ViewP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "StepDetailView",
-        "printedName": "StepDetailView",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "isAchieved",
-            "printedName": "isAchieved",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13quest_ios_sdk14StepDetailViewV10isAchievedSbvp",
-            "mangledName": "$s13quest_ios_sdk14StepDetailViewV10isAchievedSbvp",
-            "moduleName": "quest_ios_sdk",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "HasStorage"
-            ],
-            "fixedbinaryorder": 0,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13quest_ios_sdk14StepDetailViewV10isAchievedSbvg",
-                "mangledName": "$s13quest_ios_sdk14StepDetailViewV10isAchievedSbvg",
-                "moduleName": "quest_ios_sdk",
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "iconURL",
-            "printedName": "iconURL",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13quest_ios_sdk14StepDetailViewV7iconURLSSvp",
-            "mangledName": "$s13quest_ios_sdk14StepDetailViewV7iconURLSSvp",
-            "moduleName": "quest_ios_sdk",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "HasStorage"
-            ],
-            "fixedbinaryorder": 1,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13quest_ios_sdk14StepDetailViewV7iconURLSSvg",
-                "mangledName": "$s13quest_ios_sdk14StepDetailViewV7iconURLSSvg",
-                "moduleName": "quest_ios_sdk",
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "descriptionText",
-            "printedName": "descriptionText",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13quest_ios_sdk14StepDetailViewV15descriptionTextSSvp",
-            "mangledName": "$s13quest_ios_sdk14StepDetailViewV15descriptionTextSSvp",
-            "moduleName": "quest_ios_sdk",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "HasStorage"
-            ],
-            "fixedbinaryorder": 2,
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13quest_ios_sdk14StepDetailViewV15descriptionTextSSvg",
-                "mangledName": "$s13quest_ios_sdk14StepDetailViewV15descriptionTextSSvg",
-                "moduleName": "quest_ios_sdk",
-                "implicit": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "body",
-            "printedName": "body",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OpaqueTypeArchetype",
-                "printedName": "some SwiftUI.View",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13quest_ios_sdk14StepDetailViewV4bodyQrvp",
-            "mangledName": "$s13quest_ios_sdk14StepDetailViewV4bodyQrvp",
-            "moduleName": "quest_ios_sdk",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13quest_ios_sdk14StepDetailViewV4bodyQrvg",
-                "mangledName": "$s13quest_ios_sdk14StepDetailViewV4bodyQrvg",
-                "moduleName": "quest_ios_sdk",
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(isAchieved:iconURL:descriptionText:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "StepDetailView",
-                "printedName": "quest_ios_sdk.StepDetailView",
-                "usr": "s:13quest_ios_sdk14StepDetailViewV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:13quest_ios_sdk14StepDetailViewV10isAchieved7iconURL15descriptionTextACSb_S2Stcfc",
-            "mangledName": "$s13quest_ios_sdk14StepDetailViewV10isAchieved7iconURL15descriptionTextACSb_S2Stcfc",
-            "moduleName": "quest_ios_sdk",
-            "implicit": true,
-            "declAttributes": [
-              "Nonisolated"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:13quest_ios_sdk14StepDetailViewV",
-        "mangledName": "$s13quest_ios_sdk14StepDetailViewV",
-        "moduleName": "quest_ios_sdk",
-        "declAttributes": [
-          "Preconcurrency",
-          "Custom"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "View",
-            "printedName": "View",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Body",
-                "printedName": "Body",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some SwiftUI.View",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "View",
-                        "printedName": "SwiftUI.View",
-                        "usr": "s:7SwiftUI4ViewP"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7SwiftUI4ViewP",
-            "mangledName": "$s7SwiftUI4ViewP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "quest_ios_sdk",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
         "name": "QLStreakComponentView",
         "printedName": "QLStreakComponentView",
         "children": [
@@ -26387,353 +25294,6 @@
             "printedName": "BitwiseCopyable",
             "usr": "s:s15BitwiseCopyableP",
             "mangledName": "$ss15BitwiseCopyableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "EnvironmentManager",
-        "printedName": "EnvironmentManager",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "shared",
-            "printedName": "shared",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "EnvironmentManager",
-                "printedName": "quest_ios_sdk.EnvironmentManager",
-                "usr": "s:13quest_ios_sdk18EnvironmentManagerC"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13quest_ios_sdk18EnvironmentManagerC6sharedACvpZ",
-            "mangledName": "$s13quest_ios_sdk18EnvironmentManagerC6sharedACvpZ",
-            "moduleName": "quest_ios_sdk",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EnvironmentManager",
-                    "printedName": "quest_ios_sdk.EnvironmentManager",
-                    "usr": "s:13quest_ios_sdk18EnvironmentManagerC"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13quest_ios_sdk18EnvironmentManagerC6sharedACvgZ",
-                "mangledName": "$s13quest_ios_sdk18EnvironmentManagerC6sharedACvgZ",
-                "moduleName": "quest_ios_sdk",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "TypeDecl",
-            "name": "Environment",
-            "printedName": "Environment",
-            "children": [
-              {
-                "kind": "Var",
-                "name": "production",
-                "printedName": "production",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(quest_ios_sdk.EnvironmentManager.Environment.Type) -> quest_ios_sdk.EnvironmentManager.Environment",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Environment",
-                        "printedName": "quest_ios_sdk.EnvironmentManager.Environment",
-                        "usr": "s:13quest_ios_sdk18EnvironmentManagerC0D0O"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "quest_ios_sdk.EnvironmentManager.Environment.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Environment",
-                            "printedName": "quest_ios_sdk.EnvironmentManager.Environment",
-                            "usr": "s:13quest_ios_sdk18EnvironmentManagerC0D0O"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:13quest_ios_sdk18EnvironmentManagerC0D0O10productionyA2EmF",
-                "mangledName": "$s13quest_ios_sdk18EnvironmentManagerC0D0O10productionyA2EmF",
-                "moduleName": "quest_ios_sdk"
-              },
-              {
-                "kind": "Var",
-                "name": "staging",
-                "printedName": "staging",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(quest_ios_sdk.EnvironmentManager.Environment.Type) -> quest_ios_sdk.EnvironmentManager.Environment",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Environment",
-                        "printedName": "quest_ios_sdk.EnvironmentManager.Environment",
-                        "usr": "s:13quest_ios_sdk18EnvironmentManagerC0D0O"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "quest_ios_sdk.EnvironmentManager.Environment.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Environment",
-                            "printedName": "quest_ios_sdk.EnvironmentManager.Environment",
-                            "usr": "s:13quest_ios_sdk18EnvironmentManagerC0D0O"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:13quest_ios_sdk18EnvironmentManagerC0D0O7stagingyA2EmF",
-                "mangledName": "$s13quest_ios_sdk18EnvironmentManagerC0D0O7stagingyA2EmF",
-                "moduleName": "quest_ios_sdk"
-              },
-              {
-                "kind": "Function",
-                "name": "==",
-                "printedName": "==(_:_:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Environment",
-                    "printedName": "quest_ios_sdk.EnvironmentManager.Environment",
-                    "usr": "s:13quest_ios_sdk18EnvironmentManagerC0D0O"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Environment",
-                    "printedName": "quest_ios_sdk.EnvironmentManager.Environment",
-                    "usr": "s:13quest_ios_sdk18EnvironmentManagerC0D0O"
-                  }
-                ],
-                "declKind": "Func",
-                "usr": "s:13quest_ios_sdk18EnvironmentManagerC0D0O2eeoiySbAE_AEtFZ",
-                "mangledName": "$s13quest_ios_sdk18EnvironmentManagerC0D0O2eeoiySbAE_AEtFZ",
-                "moduleName": "quest_ios_sdk",
-                "static": true,
-                "implicit": true,
-                "funcSelfKind": "NonMutating"
-              },
-              {
-                "kind": "Var",
-                "name": "hashValue",
-                "printedName": "hashValue",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:13quest_ios_sdk18EnvironmentManagerC0D0O9hashValueSivp",
-                "mangledName": "$s13quest_ios_sdk18EnvironmentManagerC0D0O9hashValueSivp",
-                "moduleName": "quest_ios_sdk",
-                "implicit": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:13quest_ios_sdk18EnvironmentManagerC0D0O9hashValueSivg",
-                    "mangledName": "$s13quest_ios_sdk18EnvironmentManagerC0D0O9hashValueSivg",
-                    "moduleName": "quest_ios_sdk",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Function",
-                "name": "hash",
-                "printedName": "hash(into:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Hasher",
-                    "printedName": "Swift.Hasher",
-                    "paramValueOwnership": "InOut",
-                    "usr": "s:s6HasherV"
-                  }
-                ],
-                "declKind": "Func",
-                "usr": "s:13quest_ios_sdk18EnvironmentManagerC0D0O4hash4intoys6HasherVz_tF",
-                "mangledName": "$s13quest_ios_sdk18EnvironmentManagerC0D0O4hash4intoys6HasherVz_tF",
-                "moduleName": "quest_ios_sdk",
-                "implicit": true,
-                "funcSelfKind": "NonMutating"
-              }
-            ],
-            "declKind": "Enum",
-            "usr": "s:13quest_ios_sdk18EnvironmentManagerC0D0O",
-            "mangledName": "$s13quest_ios_sdk18EnvironmentManagerC0D0O",
-            "moduleName": "quest_ios_sdk",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "conformances": [
-              {
-                "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Equatable",
-                "printedName": "Equatable",
-                "usr": "s:SQ",
-                "mangledName": "$sSQ"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Hashable",
-                "printedName": "Hashable",
-                "usr": "s:SH",
-                "mangledName": "$sSH"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "setEnvironment",
-            "printedName": "setEnvironment(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Environment",
-                "printedName": "quest_ios_sdk.EnvironmentManager.Environment",
-                "usr": "s:13quest_ios_sdk18EnvironmentManagerC0D0O"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13quest_ios_sdk18EnvironmentManagerC03setD0yyAC0D0OF",
-            "mangledName": "$s13quest_ios_sdk18EnvironmentManagerC03setD0yyAC0D0OF",
-            "moduleName": "quest_ios_sdk",
-            "isOpen": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getBaseURL",
-            "printedName": "getBaseURL()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13quest_ios_sdk18EnvironmentManagerC10getBaseURLSSyF",
-            "mangledName": "$s13quest_ios_sdk18EnvironmentManagerC10getBaseURLSSyF",
-            "moduleName": "quest_ios_sdk",
-            "isOpen": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:13quest_ios_sdk18EnvironmentManagerC",
-        "mangledName": "$s13quest_ios_sdk18EnvironmentManagerC",
-        "moduleName": "quest_ios_sdk",
-        "isOpen": true,
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -32968,111 +31528,6 @@
       "offset": 177,
       "length": 3,
       "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QL_streak_component_modularized.swift",
-      "kind": "StringLiteral",
-      "offset": 2838,
-      "length": 17,
-      "value": "\"Streak Progress\""
-    },
-    {
-      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QL_streak_component_modularized.swift",
-      "kind": "StringLiteral",
-      "offset": 2882,
-      "length": 46,
-      "value": "\"This is the longest streak you’ve ever had\""
-    },
-    {
-      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QL_streak_component_modularized.swift",
-      "kind": "StringLiteral",
-      "offset": 2946,
-      "length": 9,
-      "value": "\"#e6ebec\""
-    },
-    {
-      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QL_streak_component_modularized.swift",
-      "kind": "StringLiteral",
-      "offset": 3019,
-      "length": 46,
-      "value": "\"This is the longest streak you’ve ever had\""
-    },
-    {
-      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QL_streak_component_modularized.swift",
-      "kind": "StringLiteral",
-      "offset": 3074,
-      "length": 18,
-      "value": "\"Confident Reader\""
-    },
-    {
-      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QL_streak_component_modularized.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3101,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QL_streak_component_modularized.swift",
-      "kind": "StringLiteral",
-      "offset": 3144,
-      "length": 24,
-      "value": "\"Keep up the good work!\""
-    },
-    {
-      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QL_streak_component_modularized.swift",
-      "kind": "StringLiteral",
-      "offset": 3177,
-      "length": 17,
-      "value": "\"Serious Learner\""
-    },
-    {
-      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QL_streak_component_modularized.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3203,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QL_streak_component_modularized.swift",
-      "kind": "StringLiteral",
-      "offset": 3246,
-      "length": 17,
-      "value": "\"You're on fire!\""
-    },
-    {
-      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QL_streak_component_modularized.swift",
-      "kind": "StringLiteral",
-      "offset": 3272,
-      "length": 17,
-      "value": "\"Absolute Reader\""
-    },
-    {
-      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QL_streak_component_modularized.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3298,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QL_streak_component_modularized.swift",
-      "kind": "StringLiteral",
-      "offset": 3341,
-      "length": 17,
-      "value": "\"You're on fire!\""
-    },
-    {
-      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QL_streak_component_modularized.swift",
-      "kind": "StringLiteral",
-      "offset": 3367,
-      "length": 17,
-      "value": "\"Absolute Reader\""
-    },
-    {
-      "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/streak_component\/view\/QL_streak_component_modularized.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3393,
-      "length": 1,
-      "value": "4"
     },
     {
       "filePath": "\/Users\/vishal\/quest-ios-sdk\/quest-ios-sdk\/quest_ios_sdk\/Quest_Sdk\/utils\/QL_constants.swift",
