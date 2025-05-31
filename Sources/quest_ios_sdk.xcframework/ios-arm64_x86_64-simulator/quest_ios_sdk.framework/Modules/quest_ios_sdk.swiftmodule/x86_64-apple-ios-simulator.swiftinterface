@@ -101,8 +101,9 @@ import _SwiftConcurrencyShims
   public typealias Body = @_opaqueReturnTypeOf("$s13quest_ios_sdk17QLStreakComponentV4bodyQrvp", 0) __
 }
 
+
 @_Concurrency.MainActor @preconcurrency public struct QLStreakComponentView : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public init(externalUser: Swift.String, streakViewTitle: Swift.String, streakViewDescriptionText: Swift.String, environment: quest_ios_sdk.EnvironmentManager.Environment, streakComponentConfig: quest_ios_sdk.QLStreakComponentProps)
+  @_Concurrency.MainActor @preconcurrency public init(externalUser: Swift.String, streakViewTitle: Swift.String, streakViewDescriptionText: Swift.String, streakMetric: Swift.String, campaignId: Swift.String, counterId: Swift.String, streakComponentConfig: quest_ios_sdk.QLStreakComponentConfig)
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
@@ -130,15 +131,6 @@ public struct QLStreakComponentConfig {
   public let entityId: Swift.String
   public let apiKey: Swift.String
   public init(id: Foundation.UUID = UUID(), entityId: Swift.String, apiKey: Swift.String)
-}
-public struct QLStreakComponentProps {
-  public let id: Foundation.UUID
-  public let entityId: Swift.String
-  public let apiKey: Swift.String
-  public let campaignId: Swift.String
-  public let counterId: Swift.String
-  public let streakMetric: Swift.String
-  public init(id: Foundation.UUID = UUID(), entityId: Swift.String, apiKey: Swift.String, campaignId: Swift.String, counterId: Swift.String, streakMetric: Swift.String)
 }
 
 @_Concurrency.MainActor @preconcurrency public struct QLWebviewWidget : SwiftUICore.View {
