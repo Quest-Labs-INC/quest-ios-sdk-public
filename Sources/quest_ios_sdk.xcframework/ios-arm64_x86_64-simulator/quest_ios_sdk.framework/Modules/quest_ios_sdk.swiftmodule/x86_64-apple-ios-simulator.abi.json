@@ -1434,7 +1434,8 @@
             "moduleName": "quest_ios_sdk",
             "isOpen": true,
             "declAttributes": [
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           }
@@ -11288,7 +11289,8 @@
             "moduleName": "quest_ios_sdk",
             "isOpen": true,
             "declAttributes": [
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           }
